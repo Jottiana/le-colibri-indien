@@ -1,0 +1,157 @@
+.hero-container {
+	position: relative;
+	width: 100vw;
+	height: 75vh;
+	overflow: hidden;
+}
+
+.hero-image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+	display: block;
+}
+
+.hero-text {
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	text-align: center;
+	padding: 2rem 2rem;
+	background-color: rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+	backdrop-filter: blur(3px);
+	max-width: 90%;
+}
+
+.hero-text h1 {
+	margin: 0;
+	font-size: 2.2rem;
+}
+
+.hero-text p {
+	margin-top: 0.5rem;
+	font-size: 1.2rem;
+}
+
+.hero-buttons {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+	margin-top: 1.5rem;
+	flex-wrap: wrap;
+}
+
+.hero-button {
+	padding: 0.75rem 1.5rem;
+	border: 2px solid white;
+	background-color: transparent;
+	color: white;
+	border-radius: 999px;
+	text-decoration: none;
+	font-weight: bold;
+	transition: all 0.3s ease;
+}
+
+.hero-button:hover {
+	background-color: white;
+	color: #2e7d32;
+}
+
+.home-intro {
+	padding: 2rem 1rem;
+	max-width: 1024px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.intro {
+	font-size: 1.5rem;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.quote-block {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 3rem auto;
+	max-width: 800px;
+	padding: 2rem 1rem;
+	animation: fadeIn 1.2s ease-in both;
+}
+
+.line {
+	width: 60%;
+	height: 1px;
+	background-color: #2e7d32;
+	margin: 1rem 0;
+}
+
+.quote {
+	font-style: italic;
+	font-size: 1.6rem;
+	color: #2e7d32;
+	font-family: "Merriweather", serif;
+	text-align: center;
+	padding: 0 1rem;
+	animation: fadeInText 1.4s ease forwards;
+	animation-delay: 0.4s;
+}
+
+.about-section {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: center;
+	gap: 2rem;
+	text-align: left;
+	margin-top: 2rem;
+}
+
+.about-image {
+	max-width: 350px;
+	width: 100%;
+	border-radius: 8px;
+}
+
+.about-text {
+	max-width: 400px;
+}
+
+.about-text h2 {
+	margin-bottom: 2rem;
+	color: #2e7d32;
+}
+
+.about-text p {
+	margin-bottom: 1rem;
+	line-height: 1.5;
+	font-size: 18px;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+		transform: translateY(30px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes fadeInText {
+	from {
+		opacity: 0;
+		transform: scale(0.96);
+	}
+	to {
+		opacity: 1;
+		transform: scale(1);
+	}
+}

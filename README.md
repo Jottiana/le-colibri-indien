@@ -22,7 +22,7 @@ Ce site présente l'histoire, les valeurs et les actions de l'association **Le C
 
 ---
 
-# Association Website [Name of the association]
+# Association Website Le Colibri Indien (The Indian hummingbird)
 
 This website introduces our association, its story, values, and actions.
 

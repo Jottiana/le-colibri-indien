@@ -28,51 +28,49 @@ function NavBar() {
 			<div className="nav-container">
 				<div className="logo">Le Colibri Indien</div>
 
-				<div className="nav-right">
-					<ul className={`nav-links ${isOpen ? "open" : ""}`}>
-						{links.map((link) => (
-							<li
-								key={link.path}
-								className={location.pathname === link.path ? "active" : ""}
-								onClick={closeMenu}
-							>
-								<Link to={link.path}>{link.label}</Link>
-							</li>
-						))}
-					</ul>
-
-					<div className="nav-actions">
-						<button
-							type="button"
-							className="icon-button"
-							onClick={toggleLanguage}
-							aria-label={
-								language === "fr" ? "Switch to English" : "Passer en français"
-							}
-							title={language === "fr" ? "EN" : "FR"}
+				<ul className={`nav-links ${isOpen ? "open" : ""}`}>
+					{links.map((link) => (
+						<li
+							key={link.path}
+							className={location.pathname === link.path ? "active" : ""}
+							onClick={closeMenu}
 						>
-							{language === "fr" ? "🇬🇧" : "🇫🇷"}
-						</button>
+							<Link to={link.path}>{link.label}</Link>
+						</li>
+					))}
+				</ul>
 
-						<button
-							type="button"
-							className="icon-button"
-							onClick={toggleTheme}
-							aria-label={
-								theme === "light"
-									? "Activer le mode sombre"
-									: "Activer le mode clair"
-							}
-							title={theme === "light" ? "🌙 Mode sombre" : "☀️ Mode clair"}
-						>
-							{theme === "light" ? "🌙" : "☀️"}
-						</button>
+				<div className="nav-icons">
+					<button
+						type="button"
+						className="icon-button plain"
+						onClick={toggleLanguage}
+						aria-label={
+							language === "fr" ? "Switch to English" : "Passer en français"
+						}
+						title={language === "fr" ? "EN" : "FR"}
+					>
+						{language === "fr" ? "🇬🇧" : "🇫🇷"}
+					</button>
 
-						<button type="button" className="burger" onClick={toggleMenu}>
-							☰
-						</button>
-					</div>
+					<button
+						type="button"
+						className="icon-button plain"
+						onClick={toggleTheme}
+						aria-label={
+							theme === "light"
+								? "Activer le mode sombre"
+								: "Activer le mode clair"
+						}
+						title={theme === "light" ? "🌙 Mode sombre" : "☀️ Mode clair"}
+					>
+						{theme === "light" ? "🌙" : "☀️"}
+					</button>
 				</div>
+
+				<button type="button" className="burger" onClick={toggleMenu}>
+					☰
+				</button>
 			</div>
 		</nav>
 	);

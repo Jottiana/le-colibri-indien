@@ -1,9 +1,9 @@
+import "./Home.css";
 import { useGlobalContext } from "../../context/GlobalContext";
 import { translations } from "../../data/translations";
 import heroImage from "/assets/kids-celebrating-indian-republic-day.jpg";
 import childImage from "/assets/front-view-girls-holding-hands-up.jpg";
 import { Link } from "react-router-dom";
-import "./Home.css";
 
 function Home() {
 	const { language } = useGlobalContext();

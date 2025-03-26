@@ -88,14 +88,14 @@
 .line {
 	width: 60%;
 	height: 1px;
-	background-color: #2e7d32;
+	background-color: var(--tertiary-color);
 	margin: 1rem 0;
 }
 
 .quote {
 	font-style: italic;
 	font-size: 1.6rem;
-	color: #2e7d32;
+	color: var(--tertiary-color);
 	font-family: "Merriweather", serif;
 	text-align: center;
 	padding: 0 1rem;
@@ -120,12 +120,12 @@
 }
 
 .about-text {
-	max-width: 400px;
+	max-width: 350px;
 }
 
-.about-text h2 {
+.about-text {
 	margin-bottom: 2rem;
-	color: #2e7d32;
+	color: var(--primary-color);
 }
 
 .about-text p {

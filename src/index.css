@@ -1,11 +1,20 @@
+:root {
+	--primary-color: #18421a;
+	--secondary-color: #ff8f07;
+	--tertiary-color: #2e7d32;
+
+	--background-light: #f5f5f5;
+	--background-dark: #2a2a2a;
+}
+
 body.light {
 	background-color: #fffef7;
-	color: #2e7d32;
+	color: #18421a;
 }
 
 body.dark {
 	background-color: #1b1b1b;
-	color: #fdd835;
+	color: #fffef7;
 }
 
 button {
@@ -23,4 +32,9 @@ body {
 
 h1 {
 	font-family: "Raleway", sans-serif;
+}
+
+h2 {
+	font-family: "Nunito", sans-serif;
+	color: var(--tertiary-color);
 }

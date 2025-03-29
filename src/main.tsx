@@ -7,13 +7,13 @@ import { GlobalProvider } from "./context/GlobalContext.tsx";
 const rootElement = document.getElementById("root");
 
 if (rootElement == null) {
-	throw new Error(`Your HTML Document must contain a <div id="root"></div>`);
+  throw new Error(`Your HTML Document must contain a <div id="root"></div>`);
 }
 
 createRoot(rootElement).render(
-	<StrictMode>
-		<GlobalProvider>
-			<App />
-		</GlobalProvider>{" "}
-	</StrictMode>,
+  <StrictMode>
+    <GlobalProvider>
+      <App />
+    </GlobalProvider>
+  </StrictMode>,
 );

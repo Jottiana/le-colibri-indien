@@ -18,6 +18,7 @@ Ce site présente l'histoire, les valeurs et les actions de l'association **Le C
 
 - **Code source** : distribué sous licence [MIT](./LICENSE).
 - **Contenus (textes, photos)** : propriété de Laëtitia HORNUT et protégé·e·s. Toute reproduction ou utilisation est soumise à son autorisation écrite.
+- **Photos**: Freepik
 
 
 ---
@@ -40,5 +41,6 @@ This website introduces our association, its story, values, and actions.
 
 ## 📄 Copyrights and license
 
-- Source code**: distributed under [MIT](./LICENSE) license.
-- Content (text, photos)** : property of Laëtitia HORNUT and protected. Any reproduction or use is subject to written authorization.
+- **Source code**: distributed under [MIT](./LICENSE) license.
+- **Content (text, photos)** : property of Laëtitia HORNUT and protected. Any reproduction or use is subject to written authorization.
+- **Photos**: Freepik

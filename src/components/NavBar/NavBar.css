@@ -1,52 +1,74 @@
 .navbar {
-	background-color: var(--primary-color);
 	padding: 1rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 10;
+	transition: background 0.4s ease;
+}
+
+.navbar.transparent {
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent);
+}
+
+.navbar.colored {
+	background-color: var(--primary-color);
+	position: relative;
+}
+
+.navbar.transparent .nav-links li a {
+	color: white;
+}
+
+.navbar.transparent .logo {
+	color: white;
 }
 
 .nav-container {
-	max-width: 1024px;
-	margin: 0 auto;
+	width: 95%;
 	padding: 0 1rem;
 	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	width: 100%;
+	flex-direction: column;
+	align-items: flex-start;
 	position: relative;
 }
 
 .logo {
 	font-weight: bold;
 	color: var(--secondary-color);
-	font-size: 1.5rem;
-}
-
-.nav-right {
-	display: flex;
-	align-items: center;
-	gap: 1rem;
+	font-size: 1.8rem;
+	margin-bottom: 0.5rem;
+	text-decoration: none;
 }
 
 .nav-links {
-	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding: 1rem 0;
+	display: none;
 	list-style: none;
-	gap: 1.8rem;
+	gap: 2rem;
+}
+
+.nav-links.open {
+	display: flex;
 }
 
 .nav-links li a {
 	text-decoration: none;
-	color: var(--secondary-color);
-	font-weight: bold;
-	font-size: 1.3rem;
+	color: white;
+	font-size: 1.2rem;
 }
 
 .nav-links li.active a {
-	border-bottom: 2px solid var(--color-secondary);
+	border-bottom: 2px solid white;
 }
 
 .nav-icons {
 	display: flex;
-	gap: 0.8rem;
-	right: 1rem;
+	gap: 1rem;
+	margin-top: 1rem;
 }
 
 .icon-button {
@@ -79,41 +101,45 @@
 }
 
 .burger {
-	display: none;
+	display: block;
+	color: white;
 	font-size: 1.5rem;
 	background: none;
 	border: none;
 	cursor: pointer;
+	position: absolute;
+	right: 3rem;
+	z-index: 10;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
 	.nav-container {
-		flex-direction: column;
-		align-items: flex-start;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
 	}
+
+	.logo {
+		margin-bottom: 0;
+		}
 
 	.nav-links {
-		flex-direction: column;
-		width: 100%;
-		padding: 1rem 0;
-		display: none;
+		flex-direction: row;
+		display: flex !important;
+		width: auto;
+		padding: 0;
 	}
 
-	.nav-links.open {
-		display: flex;
-	}
-
-	.burger {
-		display: block;
-		position: absolute;
-		top: 1rem;
-		right: 1rem;
-		margin-right: 2rem;
-		z-index: 10;
+	.nav-links li a {
+		font-size: 1.3rem;
 	}
 
 	.nav-icons {
-		position: static;
-		margin-top: 1rem;
+		margin-top: 0;
+		margin-left: 2rem;
+	}
+
+	.burger {
+		display: none;
 	}
 }

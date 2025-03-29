@@ -1,21 +1,20 @@
 import "./Home.css";
 import { useGlobalContext } from "../../context/GlobalContext";
 import { translations } from "../../data/translations";
-import heroImage from "/assets/kids-celebrating-indian-republic-day.jpg";
+import heroImage from "/assets/kids-celebrating-indian-republic-day-light-2.jpg";
 import childImage from "/assets/front-view-girls-holding-hands-up.jpg";
-import { Link } from "react-router-dom";
 
 function Home() {
 	const { language } = useGlobalContext();
-	const t = translations.home;
+	const t = translations[language].home;
 
 	return (
 		<div className="home">
 			<div className="hero-container">
-				<img src={heroImage} alt={t.alt[language]} className="hero-image" />
+				<img src={heroImage} alt={t.alt} className="hero-image" />
 				<div className="hero-text">
 					<h1>
-						{t.h1[language].split("\n").map((line, i) => (
+						{t.h1.split("\n").map((line, i) => (
 							<span key={i}>
 								{line}
 								<br />
@@ -23,7 +22,7 @@ function Home() {
 						))}
 					</h1>
 
-					<p>{t.p[language]}</p>
+					<p>{t.p}</p>
 					<div className="hero-buttons">
 						<a
 							href="https://www.kisskissbankbank.com/"
@@ -31,17 +30,22 @@ function Home() {
 							target="_blank"
 							rel="noopener noreferrer"
 						>
-							{language === "fr" ? "Faire un don" : "Donate"}
+							{t.donate}
 						</a>
-						<Link to="/contact" className="hero-button">
-							{language === "fr" ? "Devenir membre" : "Join us"}
-						</Link>
+						<a
+							href="https://www.helloasso.com/"
+							className="hero-button"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							{t.join}
+						</a>
 					</div>
 				</div>
 			</div>
 			<section className="home-intro">
 				<p className="intro">
-					{t.intro[language].split("\n").map((line, i) => (
+					{t.intro.split("\n").map((line, i) => (
 						<span key={i}>
 							{line}
 							<br />
@@ -51,7 +55,7 @@ function Home() {
 
 				<div className="quote-block">
 					<div className="line" />
-					<p className="quote">{t.quote[language]}</p>
+					<p className="quote">{t.quote}</p>
 					<div className="line" />
 				</div>
 
@@ -62,8 +66,8 @@ function Home() {
 						className="about-image"
 					/>
 					<div className="about-text">
-						<h2>{t.aboutTitle[language]}</h2>
-						{t.aboutContent[language].split("\n").map((line, i) => (
+						<h2>{t.aboutTitle}</h2>
+						{t.aboutContent.split("\n").map((line, i) => (
 							<p key={i}>{line}</p>
 						))}
 					</div>
@@ -74,3 +78,4 @@ function Home() {
 }
 
 export default Home;
+

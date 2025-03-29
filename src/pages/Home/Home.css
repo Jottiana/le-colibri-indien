@@ -1,7 +1,7 @@
 .hero-container {
 	position: relative;
 	width: 100vw;
-	height: 75vh;
+	height: 100vh;
 	overflow: hidden;
 }
 
@@ -15,12 +15,12 @@
 
 .hero-text {
 	position: absolute;
-	top: 70%;
+	top: 80%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	color: white;
 	text-align: center;
-	padding: 2rem 2rem;
+	padding: 1.5rem 1rem;
 	background-color: rgba(0, 0, 0, 0.3);
 	border-radius: 10px;
 	backdrop-filter: blur(3px);
@@ -29,24 +29,23 @@
 
 .hero-text h1 {
 	margin: 0;
-	font-size: 2.2rem;
+	font-size: 1.4rem;
 }
 
 .hero-text p {
-	margin-top: 0.5rem;
-	font-size: 1.2rem;
+	display: none;
 }
 
 .hero-buttons {
 	display: flex;
 	justify-content: center;
-	gap: 1rem;
-	margin-top: 1.5rem;
 	flex-wrap: wrap;
+	gap: 0.8rem;
+	margin-top: 1rem;
 }
 
 .hero-button {
-	padding: 0.75rem 1.5rem;
+	padding: 0.6rem 1.2rem;
 	border: 2px solid white;
 	background-color: transparent;
 	color: white;
@@ -54,6 +53,7 @@
 	text-decoration: none;
 	font-weight: bold;
 	transition: all 0.3s ease;
+	font-size: 1rem;
 }
 
 .hero-button:hover {
@@ -63,15 +63,12 @@
 
 .home-intro {
 	padding: 2rem 1rem;
-	max-width: 1024px;
-	margin: 0 auto;
 	text-align: center;
 }
 
 .intro {
-	font-size: 1.5rem;
-	margin-top: 3rem;
-	margin-bottom: 3rem;
+	font-size: 1.2rem;
+	margin: 2rem 0;
 }
 
 .quote-block {
@@ -79,14 +76,13 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	margin: 3rem auto;
-	max-width: 800px;
-	padding: 2rem 1rem;
+	margin: 2.5rem auto;
+	padding: 1.5rem 1rem;
 	animation: fadeIn 1.2s ease-in both;
 }
 
 .line {
-	width: 60%;
+	width: 70%;
 	height: 1px;
 	background-color: var(--tertiary-color);
 	margin: 1rem 0;
@@ -94,7 +90,7 @@
 
 .quote {
 	font-style: italic;
-	font-size: 1.6rem;
+	font-size: 1.4rem;
 	color: var(--tertiary-color);
 	font-family: "Merriweather", serif;
 	text-align: center;
@@ -105,33 +101,29 @@
 
 .about-section {
 	display: flex;
-	flex-wrap: wrap;
-	align-items: flex-start;
-	justify-content: center;
-	gap: 2rem;
-	text-align: left;
+	flex-direction: column;
+	align-items: center;
+	gap: 1.5rem;
 	margin-top: 2rem;
+	text-align: left;
 }
 
 .about-image {
+	width: 90%;
 	max-width: 350px;
-	width: 100%;
 	border-radius: 8px;
 }
 
 .about-text {
-	max-width: 350px;
-}
-
-.about-text {
-	margin-bottom: 2rem;
+	width: 90%;
+	max-width: 600px;
 	color: var(--primary-color);
 }
 
 .about-text p {
 	margin-bottom: 1rem;
 	line-height: 1.5;
-	font-size: 18px;
+	font-size: 1rem;
 }
 
 @keyframes fadeIn {
@@ -153,5 +145,47 @@
 	to {
 		opacity: 1;
 		transform: scale(1);
+	}
+}
+
+@media (min-width: 768px) {
+	.hero-text h1 {
+		font-size: 2.2rem;
+	}
+
+	.hero-text p {
+		font-size: 1.2rem;
+	}
+
+	.hero-buttons {
+		gap: 1rem;
+		margin-top: 1.5rem;
+	}
+
+	.hero-button {
+		padding: 0.75rem 1.5rem;
+		font-size: 1.1rem;
+	}
+
+	.intro {
+		font-size: 1.5rem;
+		margin: 3rem 0;
+	}
+
+	.quote {
+		font-size: 1.6rem;
+	}
+
+	.about-section {
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	.about-image {
+		max-width: 350px;
+	}
+
+	.about-text {
+		max-width: 350px;
 	}
 }

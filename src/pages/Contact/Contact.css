@@ -1,0 +1,32 @@
+.contact-page {
+	padding: 2rem 3rem;
+	margin: 0 auto;
+	font-family: sans-serif;
+	line-height: 1.4;
+}
+
+.contact-page h1 {
+	font-size: 1.6rem;
+	font-weight: bold;
+	margin-bottom: 1.5rem;
+}
+
+.contact-page p {
+	margin-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+	.contact-page {
+		max-width: 900px;
+		padding: 3rem;
+		font-size: 1.1rem;
+	}
+
+	.contact-page h1 {
+		font-size: 2rem;
+	}
+
+	.contact-page p {
+		font-size: 1.1rem;
+	}
+}

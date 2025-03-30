@@ -1,35 +1,41 @@
 .story {
-  max-width: 900px;
+  padding: 2rem 3rem;
   margin: 0 auto;
-  padding: 2rem 1rem;
-  font-family: 'Open Sans', sans-serif;
-  line-height: 1.6;
-  color: #333;
+  font-family: sans-serif;
+  line-height: 1.4;
 }
 
 .about-us-section {
-  margin: 3rem 0 2rem 0;
+  font-size: 1.6rem;
+	font-weight: bold;
+  margin: 2rem 0 1.5rem;
+}
+
+.story-content p {
+  margin-bottom: 1.5rem;
+}
+
+.section-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-align: center;
 }
 
 .founders-photos {
   display: flex;
   justify-content: center;
-  gap: 3rem;
-  margin: 2rem 0 3rem 0;
+  gap: 2rem;
+  margin: 2rem 0;
   flex-wrap: wrap;
 }
 
 .founder-photo {
-  width: 180px;
-  height: 180px;
+  width: 160px;
+  height: 160px;
   object-fit: cover;
   border-radius: 50%;
   border: 3px solid #2e7d32;
-}
-
-.story-content p {
-  margin-bottom: 1rem;
-  /* text-align: justify; */
 }
 
 .colibri-section {
@@ -38,7 +44,33 @@
 }
 
 .colibri-photo {
-  width: 200px;
+  width: 180px;
   border-radius: 12px;
   border: 2px solid #2e7d32;
+}
+
+@media (min-width: 768px) {
+  .story {
+    max-width: 900px;
+    padding: 3rem;
+    font-size: 1.1rem;
+  }
+
+  .about-us-section {
+    margin: 3rem 0 2rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+    text-align: left;
+  }
+
+  .founder-photo {
+    width: 180px;
+    height: 180px;
+  }
+
+  .colibri-photo {
+    width: 200px;
+  }
 }

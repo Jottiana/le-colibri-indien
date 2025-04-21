@@ -7,6 +7,11 @@
 	--background-dark: #2a2a2a;
 }
 
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
 body.light {
 	background-color: #fffef7;
 	color: #18421a;
@@ -38,3 +43,5 @@ h2 {
 	font-family: "Nunito", sans-serif;
 	color: var(--tertiary-color);
 }
+
+

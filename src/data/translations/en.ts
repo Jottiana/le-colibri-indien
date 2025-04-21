@@ -40,6 +40,7 @@ export const en = {
 	},
 	navbar: {
 		home: "Home",
+		event: "Event",
 		story: "Story",
 		actions: "Projects",
 		contact: "Contact",
@@ -49,8 +50,9 @@ export const en = {
   “Shubham and I have been friends for a while, and our shared values brought us closer. One day, while discussing money, we talked about what we would do if we were rich. He said he would open a school for children in need in his native village. He loves his village so much—and even more so the children! I replied that I would like to help people in need, especially in India, and especially children. So we concluded with: 'Why not do it together?' That’s where it all began. At first, it was just a daydream, but we started to explore the idea and realized it could become real. And every door opened along the way… so we went for it!”
   Despite coming from two fundamentally different cultures and countries, we are completely aligned in how we see the world, how we want to help, and what we want to change.
   Shubham created Meena Hope Foundation, the Indian partner association of our projects, and I created Le Colibri Indien, the association that communicates about our actions and manages funds from France.`,
-    legend: "The legend of the hummingbird, the inspiration behind our association",
-    legendText: `The Native American legend of the Hummingbird, told by Pierre Rabhi:
+		legend:
+			"The legend of the hummingbird, the inspiration behind our association",
+		legendText: `The Native American legend of the Hummingbird, told by Pierre Rabhi:
   “One day, the legend goes, there was a huge forest fire. All the terrified and stunned animals stood watching helplessly. Only the small hummingbird was busy, flying to get drops of water with its beak and dropping them on the fire. After a while, the armadillo, annoyed by this seemingly useless hustle, said: ‘Hummingbird! Are you crazy? You won't put out the fire with those drops of water!’ And the hummingbird replied: ‘I know, but I’m doing my part.’”
   
   The moral of the legend:
@@ -66,8 +68,7 @@ export const en = {
   • Promote, support, accompany and help the integration of women into the workforce, while working for greater equity.
   • Fund and support various humanitarian, ecological and economic projects to improve living conditions around the world.`,
 
-		missions:
-			"Our missions",
+		missions: "Our missions",
 		missionsText: `• Provide moral, financial and material support for the creation of one or more complete schools.
   • Provide financial and material support to schools, associations or local initiatives related to education.
   • Support students in middle school, high school and university with uniforms, notebooks, etc.
@@ -80,4 +81,22 @@ export const en = {
   Our current action is the construction of a school in the village of Ilara, near Bodhgaya, in the state of Bihar, India.
   If you wish to support us in any way and/or join us on this incredible adventure, feel free to contact us!`,
 	},
+
+	event: {
+		h1: "Charity Gala",
+		intro:
+			"With the aim of officially presenting our association and raising public awareness of our actions, we are organizing an exceptional charity gala.",
+		project:
+			"This event is also intended to raise the funds needed to bring our first project to fruition: the construction of an associative school in the village of Ilara, India.",
+		date: "📅 The Gala will take place on May 31, 2025",
+		location: "📍 Salle Chorus by Hôtel Leprince, 33 Square place de la République, 72000 Le Mans, France",
+		note: "⚠️ Invitation-only event - seating limited to 100 participants.",
+		cta: "To register, please contact us:",
+		contactLink: "Go to contact page",
+		addToCalendar: "Add to my calendar",
+		dateBox: "MAY 31, 2025",
+		locationBox:
+			"Salle Chorus by Hôtel Leprince\n33 Square place de la République\n72000 Le Mans",
+		alt: "Image illustrating the charity gala",
+	}
 } as const;

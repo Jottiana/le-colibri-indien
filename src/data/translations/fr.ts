@@ -16,6 +16,7 @@ export const fr = {
 		title: "Notre Histoire",
 		content: "L'association a été fondée en 2023 pour venir en aide...",
 	},
+
 	actions: {
 		title: "Nos actions en cours",
 		description:
@@ -34,16 +35,19 @@ export const fr = {
 		invitationNote:
 			"L’évènement est accessible uniquement sur invitation, le nombre de places étant limité à 100 participant·e·s.",
 	},
+
 	contact: {
 		title: "Contactez-nous",
 		content: "Voici nos coordonnées",
 	},
 	navbar: {
 		home: "Accueil",
+		event: "Evènement",
 		story: "Histoire",
 		actions: "Actions",
 		contact: "Contact",
 	},
+
 	story: {
 		fullText: `C’est la rencontre de deux personnes au rêve commun : celui d’aider les autres.
 « Shubham et moi sommes amis depuis quelques temps, nos valeurs communes nous ont beaucoup rapprochées. Lors d’une conversation où le sujet tournait autour de l’argent, nous avions échangé nos idées « que ferais-tu si tu étais riche ? ». Lui a répondu qu’il voulait ouvrir une école pour les enfants dans le besoin dans son village natal. Il aime tant son village, et encore plus les enfants ! Et moi j’ai répondu que j’aimerais aider les personnes dans le besoin, en Inde surtout, et les enfants en priorité. Alors on a conclu par « pourquoi pas le faire ensemble ? C’est ici que tout a commencé. Au début c’était une rêvasserie, puis on s’est prêté au jeu et on s’est rendu compte que c’était possible. Et toutes les portes se sont ouvertes sur le chemin… nous nous sommes lancés ! »
@@ -76,4 +80,23 @@ Il nous semble que la sobriété est le chemin indispensable pour questionner no
 Notre action du moment est la construction d’une école dans le village Ilara, près de Bodhgaya dans l’État du Bihar en Inde.
 Si vous souhaitez nous soutenir d’une quelconque manière et/ou nous rejoindre dans cette incroyable aventure, contactez-nous !`,
 	},
+
+	event: {
+		h1: "Gala de charité",
+		intro:
+			"Dans le but de présenter officiellement notre association et de sensibiliser le public à nos actions, nous organisons un gala de charité exceptionnel.",
+		project:
+			"Cet évènement a également pour vocation de réunir les fonds nécessaires à la concrétisation de notre premier projet : la construction d’une école associative dans le village d’Ilara, en Inde.",
+		date: "📅 Le Gala aura lieu le 31 mai 2025",
+		location: "📍 Salle Chorus by Hôtel Leprince, 33 Square place de la République, 72000 Le Mans, France",
+		note: "⚠️ Évènement sur invitation uniquement – nombre de places limité à 100 participant·e·s.",
+		cta: "Pour vous inscrire, veuillez nous contacter :",
+		contactLink: "Accéder à la page de contact",
+		addToCalendar: "Ajouter à mon agenda",
+		dateBox: "31 MAI 2025",
+		locationBox:
+			"Salle Chorus by Hôtel Leprince\n33 Square place de la République\n72000 Le Mans",
+		alt: "Image illustrant le gala de charité",
+	}
+	
 } as const;

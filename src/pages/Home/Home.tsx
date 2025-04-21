@@ -2,7 +2,7 @@ import "./Home.css";
 import { useGlobalContext } from "../../context/GlobalContext";
 import { translations } from "../../data/translations";
 import heroImage from "/assets/kids-celebrating-indian-republic-day-light-2.jpg";
-import childImage from "/assets/front-view-girls-holding-hands-up.jpg";
+import childImage from "/assets/woman-teaching-classroom.jpg";
 
 function Home() {
 	const { language } = useGlobalContext();

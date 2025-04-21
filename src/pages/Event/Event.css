@@ -1,0 +1,168 @@
+.event {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #fdfdfd;
+}
+
+.event-hero {
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.event-image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+	display: block;
+}
+
+.event-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	gap: 2rem;
+	padding: 2rem;
+	pointer-events: none;
+	z-index: 2;
+	text-align: center;
+}
+
+.event-title, .event-date-box {
+	font-family: "Jost", sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 2rem;
+	color: black;
+}
+
+.event-date-box {
+	font-family: "Jost", sans-serif;
+	text-transform: uppercase;
+	color: black;
+}
+
+.event-info-box {
+	color: black;
+	padding: 1rem;
+	border-radius: 8px;
+	font-size: 1rem;
+	max-width: 90%;
+	pointer-events: auto;
+}
+
+.event-info span {
+	display: block;
+	margin-bottom: 0.3rem;
+}
+
+.calendar-button {
+	padding: 0.6rem 1.2rem;
+	background-color: var(--tertiary-color);
+	color: white;
+	border-radius: 999px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 0.9rem;
+	transition: background-color 0.3s ease;
+	pointer-events: auto;
+}
+
+.calendar-button:hover {
+	background-color: #004d40;
+}
+
+.event-content {
+	max-width: 800px;
+	padding: 2rem 1.2rem;
+	text-align: center;
+}
+
+.event-intro,
+.event-project {
+	font-size: 1.2rem;
+	margin-bottom: 1.5rem;
+	line-height: 1.6;
+}
+
+.event-project {
+	margin-bottom: 3rem;
+}
+
+.event-details {
+	background-color: #fafafa;
+	border-left: 4px solid var(--tertiary-color);
+	margin-bottom: 2rem;
+}
+
+.event-details p {
+	margin: 0.5rem 0;
+	font-size: 1.1rem;
+}
+
+.event-note {
+	font-weight: bold;
+	color: #c62828;
+}
+
+.event-cta p {
+	font-size: 1.1rem;
+	margin-bottom: 0.5rem;
+}
+
+.event-contact-link {
+	display: inline-block;
+	margin-top: 0.5rem;
+	padding: 0.6rem 1.2rem;
+	background-color: var(--tertiary-color);
+	color: white;
+	border-radius: 999px;
+	text-decoration: none;
+	font-weight: bold;
+	transition: background-color 0.3s ease;
+}
+
+.event-contact-link:hover {
+	background-color: #004d40;
+}
+
+
+@media (min-width: 768px) {
+	.event-title {
+		font-size: 3rem;
+		position: absolute;
+		top: 4rem;
+		left: 2rem;
+	}
+
+	.event-date-box {
+		font-size: 3rem;
+		position: absolute;
+		top: 10rem;
+		left: 2rem;
+		}
+
+	.event-info-box {
+		font-size: 1.6rem;
+		position: absolute;
+		top: 16rem;
+		left: 2rem;
+	}
+
+	.calendar-button {
+		font-size: 1rem;
+		position: absolute;
+		top: 40rem;
+		right: 4rem;
+	}
+}

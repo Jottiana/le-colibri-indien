@@ -17,53 +17,53 @@
 	margin-bottom: 1.5rem;
 }
 
-.event {
+.action-event {
 	background-color: var(--background-light);
 	padding: 1rem;
 	border-radius: 10px;
 }
 
-body.dark .event {
+body.dark .action-event {
 	background-color: var(--background-dark);
 }
 
-.event-title {
+.action-event-title {
 	font-size: 1.3rem;
 	font-weight: bold;
 }
 
-.event-name {
+.action-event-name {
 	font-size: 1.1rem;
 	margin-top: 0.5rem;
 }
 
-.event-description,
-.event-details,
-.invitation-note {
+.action-event-description,
+.action-event-details,
+.action-invitation-note {
 	margin-top: 0.5rem;
 	line-height: 1.5;
 	font-size: 0.95rem;
 }
 
-.maps-link {
+.action-maps-link {
 	color: var(--secondary-color);
 	text-decoration: underline;
 }
 
-.maps-link:hover {
+.action-maps-link:hover {
 	text-decoration: none;
 	opacity: 0.9;
 }
 
-.maps-link:visited {
+.action-maps-link:visited {
 	color: var(--secondary-color);
 }
 
-body.dark .maps-link {
+body.dark .action-maps-link {
 	color: var(--secondary-color);
 }
 
-body.dark .maps-link:visited {
+body.dark .action-maps-link:visited {
 	color: var(--secondary-color);
 }
 
@@ -73,7 +73,7 @@ body.dark .maps-link:visited {
 		max-width: 900px;
 	}
 
-	.section-title {
+	.action-section-title {
 		font-size: 2rem;
 		text-align: left;
 	}
@@ -82,17 +82,21 @@ body.dark .maps-link:visited {
 		font-size: 1.1rem;
 	}
 
-	.event-title {
+	.action-event {
+		margin-top: 3rem;
+	}
+
+	.action-event-title {
 		font-size: 1.5rem;
 	}
 
-	.event-name {
+	.action-event-name {
 		font-size: 1.2rem;
 	}
 
-	.event-description,
-	.event-details,
-	.invitation-note {
+	.action-event-description,
+	.action-event-details,
+	.action-invitation-note {
 		font-size: 1rem;
 	}
 }

@@ -12,6 +12,7 @@ function NavBar() {
 
 	const links = [
 		{ path: "/", label: t.home },
+		{ path: "/event", label: t.event },
 		{ path: "/aboutus", label: t.story },
 		{ path: "/actions", label: t.actions },
 		{ path: "/contact", label: t.contact },
@@ -34,49 +35,49 @@ function NavBar() {
 					Le Colibri Indien
 				</Link>
 
-				<ul className={`nav-links ${isOpen ? "open" : ""}`}>
-					{links.map((link) => (
-						<li
-							key={link.path}
-							className={location.pathname === link.path ? "active" : ""}
-							onClick={closeMenu}
-						>
-							<Link to={link.path}>{link.label}</Link>
-						</li>
-					))}
-					<li className="nav-icons">
-						<button
-							type="button"
-							className="icon-button plain"
-							onClick={toggleLanguage}
-							aria-label={
-								language === "fr" ? "Switch to English" : "Passer en français"
-							}
-							title={language === "fr" ? "EN" : "FR"}
-						>
-							{language === "fr" ? "🇬🇧" : "🇫🇷"}
-						</button>
-
-						<button
-							type="button"
-							className="icon-button plain"
-							onClick={toggleTheme}
-							aria-label={
-								theme === "light"
-									? "Activer le mode sombre"
-									: "Activer le mode clair"
-							}
-							title={theme === "light" ? "🌙 Mode sombre" : "☀️ Mode clair"}
-						>
-							{theme === "light" ? "🌙" : "☀️"}
-						</button>
-					</li>
-				</ul>
-
 				<button type="button" className="burger" onClick={toggleMenu}>
 					☰
 				</button>
 			</div>
+
+			<ul className={`nav-links ${isOpen ? "open" : ""}`}>
+				{links.map((link) => (
+					<li
+						key={link.path}
+						className={location.pathname === link.path ? "active" : ""}
+						onClick={closeMenu}
+					>
+						<Link to={link.path}>{link.label}</Link>
+					</li>
+				))}
+				<li className="nav-icons">
+					<button
+						type="button"
+						className="icon-button plain"
+						onClick={toggleLanguage}
+						aria-label={
+							language === "fr" ? "Switch to English" : "Passer en français"
+						}
+						title={language === "fr" ? "EN" : "FR"}
+					>
+						{language === "fr" ? "🇬🇧" : "🇫🇷"}
+					</button>
+
+					<button
+						type="button"
+						className="icon-button plain"
+						onClick={toggleTheme}
+						aria-label={
+							theme === "light"
+								? "Activer le mode sombre"
+								: "Activer le mode clair"
+						}
+						title={theme === "light" ? "🌙 Mode sombre" : "☀️ Mode clair"}
+					>
+						{theme === "light" ? "🌙" : "☀️"}
+					</button>
+				</li>
+			</ul>
 		</nav>
 	);
 }

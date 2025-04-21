@@ -15,7 +15,7 @@
 
 .hero-text {
 	position: absolute;
-	top: 80%;
+	top: 75%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	color: white;
@@ -182,10 +182,11 @@
 	}
 
 	.about-image {
-		max-width: 350px;
+		max-width: 550px;
 	}
 
 	.about-text {
-		max-width: 350px;
+		max-width: 550px;
+		margin-left: 2rem;
 	}
 }

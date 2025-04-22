@@ -29,7 +29,7 @@
 	height: 100%;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 	gap: 2rem;
 	padding: 2rem;
@@ -54,19 +54,12 @@
 
 .event-info-box {
 	color: black;
-	padding: 1rem;
-	border-radius: 8px;
 	font-size: 1rem;
 	max-width: 90%;
-	pointer-events: auto;
 }
 
-.event-info span {
-	display: block;
-	margin-bottom: 0.3rem;
-}
 
-.calendar-button {
+/* .calendar-button {
 	padding: 0.6rem 1.2rem;
 	background-color: var(--tertiary-color);
 	color: white;
@@ -80,7 +73,7 @@
 
 .calendar-button:hover {
 	background-color: #004d40;
-}
+} */
 
 .event-content {
 	max-width: 800px;
@@ -138,31 +131,27 @@
 
 
 @media (min-width: 768px) {
-	.event-title {
-		font-size: 3rem;
-		position: absolute;
-		top: 4rem;
-		left: 2rem;
+	.event-overlay {
+	top: 4rem;
+  left: 4rem;
+  justify-content: flex-start;
+  align-items: start;
+	gap: 4rem;
 	}
 
-	.event-date-box {
+	.event-title, .event-date-box  {
 		font-size: 3rem;
-		position: absolute;
-		top: 10rem;
-		left: 2rem;
-		}
+	}
 
 	.event-info-box {
-		font-size: 1.6rem;
-		position: absolute;
-		top: 16rem;
-		left: 2rem;
+		font-size: 2rem;
+		text-align: left;
 	}
 
-	.calendar-button {
+	/* .calendar-button {
 		font-size: 1rem;
 		position: absolute;
 		top: 40rem;
 		right: 4rem;
-	}
+	} */
 }

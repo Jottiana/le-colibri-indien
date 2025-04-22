@@ -40,13 +40,13 @@ function Event() {
 						</p>
 					</div>
 
-					<a
+					{/* <a
 						href="/calendar-invite.ics"
 						className="calendar-button"
 						download
 					>
 						{t.addToCalendar}
-					</a>
+					</a> */}
 				</div>
 			</div>
 

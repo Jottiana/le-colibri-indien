@@ -38,7 +38,8 @@
 	text-align: center;
 }
 
-.event-title, .event-date-box {
+.event-title,
+.event-date-box {
 	font-family: "Jost", sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -57,7 +58,6 @@
 	font-size: 1rem;
 	max-width: 90%;
 }
-
 
 /* .calendar-button {
 	padding: 0.6rem 1.2rem;
@@ -129,17 +129,17 @@
 	background-color: #004d40;
 }
 
-
 @media (min-width: 768px) {
 	.event-overlay {
-	top: 4rem;
-  left: 4rem;
-  justify-content: flex-start;
-  align-items: start;
-	gap: 4rem;
+		top: 4rem;
+		left: 4rem;
+		justify-content: flex-start;
+		align-items: start;
+		gap: 4rem;
 	}
 
-	.event-title, .event-date-box  {
+	.event-title,
+	.event-date-box {
 		font-size: 3rem;
 	}
 

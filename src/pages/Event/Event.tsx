@@ -24,9 +24,7 @@ function Event() {
 					<h1 className="event-title">{t.h1}</h1>
 
 					<div className="event-date-box">
-						<p className="event-date">
-							{t.dateBox}
-						</p>
+						<p className="event-date">{t.dateBox}</p>
 					</div>
 
 					<div className="event-info-box">

@@ -1,76 +1,91 @@
-.story {
-  padding: 2rem 3rem;
-  margin: 0 auto;
-  font-family: sans-serif;
-  line-height: 1.4;
+.about-container {
+	padding: 2rem 1rem;
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+	max-width: 1200px;
+	margin: 0 auto;
 }
 
-.about-us-section {
-  font-size: 1.6rem;
-	font-weight: bold;
-  margin: 2rem 0 1.5rem;
+.page-title {
+	text-align: center;
+	font-size: 2rem;
+	margin-bottom: 1rem;
 }
 
-.story-content p {
-  margin-bottom: 1.5rem;
+.grid-row {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+	align-items: center;
 }
 
-.section-title {
-  font-size: 1.6rem;
-  font-weight: bold;
-  margin-bottom: 1.5rem;
-  text-align: center;
+.grid-row.reverse {
+	flex-direction: column-reverse;
 }
 
-.founders-photos {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  margin: 2rem 0;
-  flex-wrap: wrap;
+.col-text {
+	flex: 1;
+	max-width: 600px;
 }
 
-.founder-photo {
-  width: 160px;
-  height: 160px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 3px solid #2e7d32;
+.col-image {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-.colibri-section {
-  margin-top: 3rem;
-  text-align: center;
+.col-image img {
+	width: 100%;
+	max-width: 280px;
+	border-radius: 12px;
+	border: 2px solid var(--tertiary-color);
+	cursor: pointer;
 }
 
-.colibri-photo {
-  width: 180px;
-  border-radius: 12px;
-  border: 2px solid #2e7d32;
+.double-image {
+	gap: 1rem;
+}
+
+.double-image img {
+	width: 120px;
+	height: 120px;
+	object-fit: cover;
+	border-radius: 50%;
+	opacity: 0.7;
+	transition: all 0.3s ease;
+}
+
+.double-image img.active {
+	opacity: 1;
+	transform: scale(1.05);
+	box-shadow: 0 0 10px var(--tertiary-color);
+}
+
+.bio h3 {
+	margin-top: 0.5rem;
+	color: var(--tertiary-color);
 }
 
 @media (min-width: 768px) {
-  .story {
-    max-width: 900px;
-    padding: 3rem;
-    font-size: 1.1rem;
-  }
+	.grid-row,
+	.grid-row.reverse {
+		flex-direction: row;
+		justify-content: space-between;
+	}
 
-  .about-us-section {
-    margin: 3rem 0 2rem;
-  }
+	.grid-row.reverse {
+		flex-direction: row-reverse;
+	}
 
-  .section-title {
-    font-size: 2rem;
-    text-align: left;
-  }
+	.col-image img {
+		width: 100%;
+		max-width: 480px;
+	}
 
-  .founder-photo {
-    width: 180px;
-    height: 180px;
-  }
-
-  .colibri-photo {
-    width: 200px;
-  }
+	.double-image img {
+		width: 160px;
+		height: 160px;
+	}
 }

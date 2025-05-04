@@ -5,6 +5,7 @@ import Contact from "../src/pages/Contact/Contact";
 import Event from "../src/pages/Event/Event";
 import Home from "../src/pages/Home/Home";
 
+import Footer from "./components/Footer/Footer";
 import NavBar from "./components/NavBar/NavBar";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
 				<Route path="/contact" element={<Contact />} />
 				<Route path="/event" element={<Event />} />	
 			</Routes>
+			<Footer />
 		</BrowserRouter>
 	);
 }

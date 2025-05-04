@@ -1,4 +1,3 @@
-// i18n/index.ts
 import { fr } from "./fr";
 import { en } from "./en";
 

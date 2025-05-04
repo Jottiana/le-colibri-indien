@@ -89,9 +89,10 @@ export const en = {
 				
 				Our current project is the construction of a school in the village of Ilara, near Bodhgaya in the Indian state of Bihar.
 				
-				If you would like to support us in any way and/or join us in this incredible adventure, please contact us`,
+				If you would like to support us in any way and/or join us in this incredible adventure, please contact us`
+	},
 
-		event: {
+	galaEvent: {
 			h1: "Charity Gala",
 			intro:
 				"With the aim of officially presenting our association and raising public awareness of our actions, we are organizing an exceptional charity gala.",
@@ -109,5 +110,5 @@ export const en = {
 				"Salle Chorus by Hôtel Leprince\n33 Square place de la République\n72000 Le Mans",
 			alt: "Image illustrating the charity gala",
 		},
-	},
-};
+	};
+

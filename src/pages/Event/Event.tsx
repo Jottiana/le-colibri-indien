@@ -1,13 +1,12 @@
 import "./Event.css";
 import { useGlobalContext } from "../../context/GlobalContext";
 import { translations } from "../../data/translations";
-import { Link } from "react-router-dom";
 import galaImage from "/assets/event-gala.png";
 import galaImageMobile from "/assets/event-gala-mobile.png";
 
 function Event() {
 	const { language } = useGlobalContext();
-	const t = translations[language].event;
+	const t = translations[language].galaEvent;
 
 	const isMobile = window.innerWidth < 768;
 
@@ -29,7 +28,7 @@ function Event() {
 
 					<div className="event-info-box">
 						<p className="event-info">
-							{t.locationBox.split("\n").map((line, i) => (
+							{t.locationBox.split("\n").map((line: string, i: number) => (
 								<span key={i}>
 									{line}
 									<br />
@@ -37,14 +36,6 @@ function Event() {
 							))}
 						</p>
 					</div>
-
-					{/* <a
-						href="/calendar-invite.ics"
-						className="calendar-button"
-						download
-					>
-						{t.addToCalendar}
-					</a> */}
 				</div>
 			</div>
 

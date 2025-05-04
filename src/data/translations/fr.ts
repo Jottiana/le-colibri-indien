@@ -97,7 +97,7 @@ export const fr = {
 		less: "voir moins",
 	},
 
-	event: {
+	galaEvent: {
 		h1: "Gala de charité",
 		intro:
 			"Dans le but de présenter officiellement notre association et de sensibiliser le public à nos actions, nous organisons un gala de charité exceptionnel.",
@@ -115,4 +115,4 @@ export const fr = {
 			"Salle Chorus by Hôtel Leprince\n33 Square place de la République\n72000 Le Mans",
 		alt: "Image illustrant le gala de charité",
 	},
-} as const;
+};

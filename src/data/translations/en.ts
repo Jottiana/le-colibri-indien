@@ -32,7 +32,7 @@ export const en = {
 			mapsLink: "https://maps.google.com/?q=Chorus+by+Hotel+Leprince,+Le+Mans",
 		},
 		invitationNote:
-			"This event is by invitation only, as attendance is limited to 100 guests.",
+			"This event is by invitation only, as attendance is limited to 150 guests.",
 	},
 	contact: {
 		title: "Contact us",
@@ -100,9 +100,9 @@ export const en = {
 			date: "📅 The Gala will take place on May 31, 2025",
 			location:
 				"📍 Salle Chorus by Hôtel Leprince, 33 Square place de la République, 72000 Le Mans, France",
-			note: "⚠️ Invitation-only event - seating limited to 100 participants.",
-			cta: "To register, please contact us:",
-			contactLink: "Go to contact page",
+			note: "⚠️ Invitation-only event - seating limited to 150 participants.",
+			cta: "To register, please use the link below:",
+			inscriptionLinkText: "Register for the Gala",
 			addToCalendar: "Add to my calendar",
 			dateBox: "MAY 31, 2025",
 			locationBox:

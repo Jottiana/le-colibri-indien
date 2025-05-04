@@ -60,9 +60,14 @@ function Event() {
 
 				<div className="event-cta">
 					<p>{t.cta}</p>
-					<Link to="/contact" className="event-contact-link">
-						{t.contactLink}
-					</Link>
+					<a
+						href="https://www.helloasso.com/associations/association-le-colibri-indien/evenements/billetterie-gala-de-charite"
+						target="_blank"
+						rel="noopener noreferrer"
+						className="event-register-link"
+					>
+						{t.inscriptionLinkText}
+					</a>
 				</div>
 			</section>
 		</div>

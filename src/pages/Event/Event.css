@@ -113,9 +113,9 @@
 	margin-bottom: 0.5rem;
 }
 
-.event-contact-link {
+.event-register-link {
 	display: inline-block;
-	margin-top: 0.5rem;
+	margin-top: 1rem;
 	padding: 0.6rem 1.2rem;
 	background-color: var(--tertiary-color);
 	color: white;
@@ -125,7 +125,7 @@
 	transition: background-color 0.3s ease;
 }
 
-.event-contact-link:hover {
+.event-register-link:hover {
 	background-color: #004d40;
 }
 

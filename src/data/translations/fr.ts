@@ -33,7 +33,7 @@ export const fr = {
 			mapsLink: "https://maps.google.com/?q=Chorus+by+Hotel+Leprince,+Le+Mans",
 		},
 		invitationNote:
-			"L’évènement est accessible uniquement sur invitation, le nombre de places étant limité à 100 participant·e·s.",
+			"L’évènement est accessible uniquement sur invitation, le nombre de places étant limité à 150 participant·e·s.",
 	},
 
 	contact: {
@@ -96,6 +96,7 @@ export const fr = {
 		more: "en savoir plus",
 		less: "voir moins",
 	},
+
 	event: {
 		h1: "Gala de charité",
 		intro:
@@ -105,9 +106,9 @@ export const fr = {
 		date: "📅 Le Gala aura lieu le 31 mai 2025",
 		location:
 			"📍 Salle Chorus by Hôtel Leprince, 33 Square place de la République, 72000 Le Mans, France",
-		note: "⚠️ Évènement sur invitation uniquement – nombre de places limité à 100 participant·e·s.",
-		cta: "Pour vous inscrire, veuillez nous contacter :",
-		contactLink: "Accéder à la page de contact",
+		note: "⚠️ Évènement sur invitation uniquement – nombre de places limité à 150 participant·e·s.",
+		cta: "Pour vous inscrire, veuillez utiliser le lien ci-dessous :",
+		inscriptionLinkText: "S'inscrire au Gala",
 		addToCalendar: "Ajouter à mon agenda",
 		dateBox: "31 MAI 2025",
 		locationBox:

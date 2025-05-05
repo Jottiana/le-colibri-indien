@@ -27,6 +27,11 @@
 	justify-content: space-between;
 }
 
+.logo-img {
+	height: 80px;
+	object-fit: contain;
+}
+
 .logo {
 	font-weight: bold;
 	color: var(--secondary-color);

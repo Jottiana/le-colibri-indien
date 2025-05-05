@@ -7,6 +7,14 @@ function Footer() {
         <p className="footer-text">© {new Date().getFullYear()} Le Colibri Indien</p>
         <div className="footer-links">
           <a
+            href="https://www.facebook.com/profile.php?id=61574921468907"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="footer-link"
+          >
+            Facebook
+            </a>
+          <a
             href="https://www.helloasso.com/associations/association-le-colibri-indien"
             target="_blank"
             rel="noopener noreferrer"

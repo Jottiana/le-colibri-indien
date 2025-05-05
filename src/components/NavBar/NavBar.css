@@ -115,6 +115,11 @@
 		justify-content: space-between;
 	}
 
+	.logo-img {
+		height: 80px;
+		object-fit: contain;
+	}
+	
 	.logo {
 		margin-bottom: 0;
 		}

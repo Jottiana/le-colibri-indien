@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { useGlobalContext } from "../../context/GlobalContext";
 import { translations } from "../../data/translations";
+import colibriLogo from "../../../public/assets/colibri-logo.png"
 
 function NavBar() {
 	const location = useLocation();
@@ -32,7 +33,11 @@ function NavBar() {
 		>
 			<div className="nav-container">
 				<Link to="/" className="logo" onClick={closeMenu}>
-					Le Colibri Indien
+					<img
+						src={colibriLogo}
+						alt="Logo Le Colibri Indien"
+						className="logo-img"
+					/>
 				</Link>
 
 				<button type="button" className="burger" onClick={toggleMenu}>

@@ -11,6 +11,7 @@ export const fr = {
 			"• Aider les enfants défavorisés en Inde à accéder à l’éducation en soutenant leur scolarisation via des collaborations avec une ou plusieurs associations locales d'aide à la scolarité.\n• Promouvoir, soutenir, accompagner et aider l'insertion des femmes dans le monde du travail, tout en œuvrant pour plus d'équité pour elles.\n• Financer et soutenir divers projets humanitaires, écologiques et économiques afin d'améliorer les conditions de vie en Inde.",
 		donate: "Faire un don",
 		join: "Devenir membre",
+		banner: "🎉 Gala de charité le 31 mai 2025 - Cliquez ici pour en savoir plus 🎉",
 	},
 	aboutus: {
 		title: "Notre Histoire",
@@ -113,6 +114,7 @@ export const fr = {
 		dateBox: "31 MAI 2025",
 		locationBox:
 			"Salle Chorus by Hôtel Leprince\n33 Square place de la République\n72000 Le Mans",
+		mapsLink: "https://maps.google.com/?q=Chorus+by+Hotel+Leprince,+Le+Mans",
 		alt: "Image illustrant le gala de charité",
 	},
 };

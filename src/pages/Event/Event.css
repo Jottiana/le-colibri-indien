@@ -59,6 +59,18 @@
 	max-width: 90%;
 }
 
+.event-maps-link {
+	color: inherit;
+	text-decoration: none;
+	cursor: pointer;
+	pointer-events: auto;
+}
+
+.event-maps-link:hover {
+	text-decoration: underline;
+}
+
+
 /* .calendar-button {
 	padding: 0.6rem 1.2rem;
 	background-color: var(--tertiary-color);

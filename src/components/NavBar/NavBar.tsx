@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { useGlobalContext } from "../../context/GlobalContext";
 import { translations } from "../../data/translations";
-import colibriLogo from "../../../public/assets/colibri-logo.png"
+import colibriLogo from "/assets/colibri-logo.png"
 
 function NavBar() {
 	const location = useLocation();

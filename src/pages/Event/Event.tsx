@@ -27,14 +27,19 @@ function Event() {
 					</div>
 
 					<div className="event-info-box">
-						<p className="event-info">
+						<a
+							href={t.mapsLink}
+							target="_blank"
+							rel="noopener noreferrer"
+							className="event-maps-link"
+						>
 							{t.locationBox.split("\n").map((line: string, i: number) => (
 								<span key={i}>
 									{line}
 									<br />
 								</span>
 							))}
-						</p>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -45,7 +50,13 @@ function Event() {
 
 				<div className="event-details">
 					<p>{t.date}</p>
-					<p>{t.location}</p>
+					<p>
+						<a
+							href={t.mapsLink}
+							target="_blank"
+							rel="noopener noreferrer"
+							className="event-maps-link"
+						>{t.location}</a></p>
 					<p className="event-note">{t.note}</p>
 				</div>
 

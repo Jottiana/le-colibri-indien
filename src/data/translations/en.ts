@@ -11,6 +11,7 @@ export const en = {
 			"• Help underprivileged children in India access education through partnerships with local education support groups.\n• Promote, support, and accompany women's integration into the workforce while advocating for greater equity.\n• Fund and support humanitarian, ecological, and economic projects to improve living conditions in India.",
 		donate: "Donate",
 		join: "Join us",
+		banner: "🎉 Charity gala on May 31, 2025 - Click here to find out more 🎉",
 	},
 	aboutus: {
 		title: "Our Story",
@@ -108,6 +109,7 @@ export const en = {
 			dateBox: "MAY 31, 2025",
 			locationBox:
 				"Salle Chorus by Hôtel Leprince\n33 Square place de la République\n72000 Le Mans",
+			mapsLink: "https://maps.google.com/?q=Chorus+by+Hotel+Leprince,+Le+Mans",
 			alt: "Image illustrating the charity gala",
 		},
 	};

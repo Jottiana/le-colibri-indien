@@ -1,7 +1,7 @@
 .hero-container {
 	position: relative;
 	width: 100vw;
-	height: 100vh;
+	height: calc(100% - 25px);
 	overflow: hidden;
 }
 
@@ -189,4 +189,41 @@
 		max-width: 550px;
 		margin-left: 2rem;
 	}
+}
+
+.event-banner {
+	background-color: var(--secondary-color);
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem;
+	position: relative;
+	text-align: center;
+	font-weight: bold;
+	flex-wrap: wrap;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	z-index: 10;
+}
+
+.event-banner-text {
+	color: white;
+	text-decoration: none;
+	font-size: 1.1rem;
+}
+
+.event-banner-text:hover {
+	text-decoration: underline;
+}
+
+.close-banner {
+	position: absolute;
+	right: 1rem;
+	top: 50%;
+	transform: translateY(-50%);
+	background: none;
+	border: none;
+	color: white;
+	font-size: 1.5rem;
+	cursor: pointer;
 }

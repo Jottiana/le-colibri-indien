@@ -1,31 +1,30 @@
 {
-  "name": "le-colibri-indien",
-  "private": true,
-  "version": "0.0.0",
-  "homepage": "https://jottiana.github.io/le-colibri-indien/",
-  "type": "module",
-  "scripts": {
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d dist",
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "check": "biome check src",
-    "check:fix": "biome check --write src",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-router-dom": "^7.4.0"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "1.9.4",
-    "@types/react": "^19.0.10",
-    "@types/react-dom": "^19.0.4",
-    "@types/react-router-dom": "^5.3.3",
-    "@vitejs/plugin-react": "^4.3.4",
-    "gh-pages": "^6.3.0",
-    "typescript": "~5.7.2",
-    "vite": "^6.2.0"
-  }
+	"name": "le-colibri-indien",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"predeploy": "npm run build && cp dist/index.html dist/404.html",
+		"deploy": "gh-pages -d dist",
+		"dev": "vite",
+		"build": "tsc -b && vite build",
+		"check": "biome check src",
+		"check:fix": "biome check --write src",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"react": "^19.0.0",
+		"react-dom": "^19.0.0",
+		"react-router-dom": "^7.4.0"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@types/react": "^19.0.10",
+		"@types/react-dom": "^19.0.4",
+		"@types/react-router-dom": "^5.3.3",
+		"@vitejs/plugin-react": "^4.3.4",
+		"gh-pages": "^6.3.0",
+		"typescript": "~5.7.2",
+		"vite": "^6.2.0"
+	}
 }

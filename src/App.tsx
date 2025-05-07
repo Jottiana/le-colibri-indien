@@ -7,10 +7,11 @@ import Home from "../src/pages/Home/Home";
 
 import Footer from "./components/Footer/Footer";
 import NavBar from "./components/NavBar/NavBar";
+import NotFoundPage from "./pages/NotFoundPage/NotFoundPage";
 
 function App() {
 	return (
-		<BrowserRouter basename="/le-colibri-indien">
+		<BrowserRouter>
 			<NavBar />
 			<Routes>
 				<Route path="/" element={<Home />} />
@@ -18,6 +19,7 @@ function App() {
 				<Route path="/actions" element={<Actions />} />
 				<Route path="/contact" element={<Contact />} />
 				<Route path="/event" element={<Event />} />	
+				<Route path="*" element={<NotFoundPage />} />
 			</Routes>
 			<Footer />
 		</BrowserRouter>

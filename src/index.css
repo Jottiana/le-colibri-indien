@@ -34,6 +34,10 @@ body {
 	overflow-x: hidden;
 }
 
+body.banner-visible {
+	padding-top: 60px;
+}
+
 h1 {
 	font-family: "Raleway", sans-serif;
 	font-weight: 500;

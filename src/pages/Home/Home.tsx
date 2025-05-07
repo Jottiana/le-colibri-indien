@@ -1,14 +1,15 @@
 import "./Home.css";
-import { useState } from "react";
 import { useGlobalContext } from "../../context/GlobalContext";
 import { translations } from "../../data/translations";
 import heroImage from "/assets/kids-celebrating-indian-republic-day-light-2.jpg";
 import childImage from "/assets/woman-teaching-classroom.jpg";
+import donationIcon from "/assets/donation-icon.svg";
+import galaIcon from "/assets/gala-icon.svg";
+import membershipIcon from "/assets/membership-icon.svg";
 
 function Home() {
 	const { language } = useGlobalContext();
 	const t = translations[language].home;
-	const [showBanner, setShowBanner] = useState(true);
 
 	return (
 		<div className="home">
@@ -46,25 +47,37 @@ function Home() {
 				</div>
 			</div>
 
-			{showBanner && (
-				<div
-					className="event-banner"
-					role="region"
-					aria-label="Annonce événement"
-				>
-					<a href="/event" className="event-banner-text">
-						{t.banner}
-					</a>
-					<button
-						type="button"
-						className="close-banner"
-						onClick={() => setShowBanner(false)}
-						aria-label="Fermer l'annonce"
+			<section className="orange-banner">
+				<div className="orange-text">{t.nonProfit}</div>
+				<div className="info-cards">
+					<a
+						href="https://www.helloasso.com/associations/association-le-colibri-indien/formulaires/1"
+						className="info-card"
 					>
-						&times;
-					</button>
+						<img src={donationIcon} alt={t.card1Alt} className="card-icon" />
+						<h3>{t.card1}</h3>
+						<div className="card-text">{t.card1Text}</div>
+					</a>
+
+					<a
+						href="https://www.helloasso.com/associations/association-le-colibri-indien/evenements/billetterie-gala-de-charite"
+						className="info-card"
+					>
+						<img src={galaIcon} alt={t.card2Alt} className="card-icon" />
+						<h3>{t.card2}</h3>
+						<div className="card-text">{t.card2Text}</div>
+					</a>
+
+					<a
+						href="https://www.helloasso.com/associations/association-le-colibri-indien/adhesions/adhesion-le-colibri-indien"
+						className="info-card"
+					>
+						<img src={membershipIcon} alt={t.card3Alt} className="card-icon" />
+						<h3>{t.card3}</h3>
+						<div className="card-text">{t.card3Text}</div>
+					</a>
 				</div>
-			)}
+			</section>
 
 			<section className="home-intro">
 				<p className="intro">
@@ -85,7 +98,7 @@ function Home() {
 				<div className="about-section">
 					<img src={childImage} alt="Ecole en Inde" className="about-image" />
 					<div className="about-text">
-						<h2>{t.aboutTitle}</h2>
+						<h2 className="about-title-home">{t.aboutTitle}</h2>
 						{t.aboutContent.split("\n").map((line, i) => (
 							<p key={i}>{line}</p>
 						))}

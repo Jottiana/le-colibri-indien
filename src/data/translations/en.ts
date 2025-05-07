@@ -11,8 +11,22 @@ export const en = {
 			"• Help underprivileged children in India access education through partnerships with local education support groups.\n• Promote, support, and accompany women's integration into the workforce while advocating for greater equity.\n• Fund and support humanitarian, ecological, and economic projects to improve living conditions in India.",
 		donate: "Donate",
 		join: "Join us",
+		nonProfit: "We are non-profit charity NGO",
+		card1: "Make a donation",
+		card1Alt: "Donation icon",
+		card1Text: "Contribute to our work on HelloAsso",
+		card2: "Join our charity gala",
+		card2Alt: "Charity icon",
+		card2Text: "Register for our event on May 31, 2025",
+		card3: "Become a member",
+		card3Alt: "Membership card icon",
+		card3Text: "1 membership = 1 child at school",
+	},
+
+	eventBanner: {
 		banner: "🎉 Charity gala on May 31, 2025 - Click here to find out more 🎉",
 	},
+
 	aboutus: {
 		title: "Our Story",
 		content: "The association was founded in 2023 to help...",
@@ -90,27 +104,33 @@ export const en = {
 				
 				Our current project is the construction of a school in the village of Ilara, near Bodhgaya in the Indian state of Bihar.
 				
-				If you would like to support us in any way and/or join us in this incredible adventure, please contact us`
+				If you would like to support us in any way and/or join us in this incredible adventure, please contact us`,
 	},
 
 	galaEvent: {
-			h1: "Charity Gala",
-			intro:
-				"With the aim of officially presenting our association and raising public awareness of our actions, we are organizing an exceptional charity gala.",
-			project:
-				"This event is also intended to raise the funds needed to bring our first project to fruition: the construction of an associative school in the village of Ilara, India.",
-			date: "📅 The Gala will take place on May 31, 2025",
-			location:
-				"📍 Salle Chorus by Hôtel Leprince, 33 Square place de la République, 72000 Le Mans, France",
-			note: "⚠️ Invitation-only event - seating limited to 150 participants.",
-			cta: "To register, please use the link below:",
-			inscriptionLinkText: "Register for the Gala",
-			addToCalendar: "Add to my calendar",
-			dateBox: "MAY 31, 2025",
-			locationBox:
-				"Salle Chorus by Hôtel Leprince\n33 Square place de la République\n72000 Le Mans",
-			mapsLink: "https://maps.google.com/?q=Chorus+by+Hotel+Leprince,+Le+Mans",
-			alt: "Image illustrating the charity gala",
-		},
-	};
+		h1: "Charity Gala",
+		intro:
+			"With the aim of officially presenting our association and raising public awareness of our actions, we are organizing an exceptional charity gala.",
+		project:
+			"This event is also intended to raise the funds needed to bring our first project to fruition: the construction of an associative school in the village of Ilara, India.",
+		date: "📅 The Gala will take place on May 31, 2025",
+		location:
+			"📍 Salle Chorus by Hôtel Leprince, 33 Square place de la République, 72000 Le Mans, France",
+		note: "⚠️ Invitation-only event - seating limited to 150 participants.",
+		cta: "To register, please use the link below:",
+		inscriptionLinkText: "Register for the Gala",
+		addToCalendar: "Add to my calendar",
+		dateBox: "MAY 31, 2025",
+		locationBox:
+			"Salle Chorus by Hôtel Leprince\n33 Square place de la République\n72000 Le Mans",
+		mapsLink: "https://maps.google.com/?q=Chorus+by+Hotel+Leprince,+Le+Mans",
+		alt: "Image illustrating the charity gala",
+	},
 
+	notFoundPage: {
+		pageNotFound:
+			"404 - Page not found\nOops, the page you're looking for doesn't exist.",
+		alt404: "Child writing “404” on the blackboard at school",
+		backToHome: "Back to home",
+	},
+};

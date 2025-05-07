@@ -11,8 +11,23 @@ export const fr = {
 			"• Aider les enfants défavorisés en Inde à accéder à l’éducation en soutenant leur scolarisation via des collaborations avec une ou plusieurs associations locales d'aide à la scolarité.\n• Promouvoir, soutenir, accompagner et aider l'insertion des femmes dans le monde du travail, tout en œuvrant pour plus d'équité pour elles.\n• Financer et soutenir divers projets humanitaires, écologiques et économiques afin d'améliorer les conditions de vie en Inde.",
 		donate: "Faire un don",
 		join: "Devenir membre",
-		banner: "🎉 Gala de charité le 31 mai 2025 - Cliquez ici pour en savoir plus 🎉",
+		nonProfit: "Le Colibri Indien est une ONG à but non lucratif",
+		card1: "Faites un don",
+		card1Alt: "Icône don",
+		card1Text: "Contribuez à notre action sur HelloAsso",
+		card2: "Gala de charité",
+		card2Alt: "Icône gala de charité",
+		card2Text: "Inscrivez-vous à notre évènement le 31 mai 2025",
+		card3: "Devenez membre",
+		card3Alt: "Icône carte de membre",
+		card3Text: "1 adhésion = 1 enfant à l'école",
 	},
+
+	eventBanner: {
+		banner:
+			"🎉 Gala de charité le 31 mai 2025 - Cliquez ici pour en savoir plus 🎉",
+	},
+
 	aboutus: {
 		title: "Notre Histoire",
 		content: "L'association a été fondée en 2023 pour venir en aide...",
@@ -116,5 +131,12 @@ export const fr = {
 			"Salle Chorus by Hôtel Leprince\n33 Square place de la République\n72000 Le Mans",
 		mapsLink: "https://maps.google.com/?q=Chorus+by+Hotel+Leprince,+Le+Mans",
 		alt: "Image illustrant le gala de charité",
+	},
+
+	notFoundPage: {
+		pageNotFound:
+			"404 - Page non trouvée\nOups, la page que vous cherchez n'existe pas.",
+		alt404: "Enfant qui écrit “404” au tableau à l'école",
+		backToHome: "Retour à l'accueil",
 	},
 };

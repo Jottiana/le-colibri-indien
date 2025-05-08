@@ -4,11 +4,11 @@ export const fr = {
 		p: "Parce que chaque enfant mérite une chance",
 		alt: "Des enfants indiens",
 		intro:
-			"L’association Le Colibri Indien a pour premier objectif \nla construction d’une école pour les enfants défavorisés \ndans le village Ilara dans l’État du Bihar en Inde.",
+			"Le Colibri Indien a pour but de soutenir divers projets humanitaires, écologiques et économiques en Inde.\nNotre premier projet : la construction d'une école gratuite pour les enfants défavorisés du village Ilara.\nEnsemble, offrons à ces enfants l'accès à l'éducation et un avenir meilleur !",
 		quote: "« L’océan, c’est une multitude de gouttes d’eau » Jaya",
-		aboutTitle: "Nos buts",
+		aboutTitle: "Nos actions",
 		aboutContent:
-			"• Aider les enfants défavorisés en Inde à accéder à l’éducation en soutenant leur scolarisation via des collaborations avec une ou plusieurs associations locales d'aide à la scolarité.\n• Promouvoir, soutenir, accompagner et aider l'insertion des femmes dans le monde du travail, tout en œuvrant pour plus d'équité pour elles.\n• Financer et soutenir divers projets humanitaires, écologiques et économiques afin d'améliorer les conditions de vie en Inde.",
+			"Aider les enfants défavorisés en Inde à accéder à l’éducation en soutenant leur scolarisation.\nPromouvoir, soutenir, accompagner et aider l'insertion des femmes dans le monde du travail, tout en œuvrant pour plus d'équité pour elles.\nFinancer et soutenir divers projets humanitaires, écologiques et économiques afin d'améliorer les conditions de vie en Inde.",
 		donate: "Faire un don",
 		join: "Devenir membre",
 		nonProfit: "Le Colibri Indien est une ONG à but non lucratif",

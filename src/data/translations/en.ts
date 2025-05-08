@@ -4,11 +4,11 @@ export const en = {
 		p: "Because every child deserves a chance",
 		alt: "Indian children",
 		intro:
-			"The association Le Colibri Indien aims to build a school \nfor underprivileged children in the village of Ilara, Bihar, India.",
+			"Le Colibri Indien (The Indian Hummingbird) aims to support various humanitarian, ecological and economic projects in India.\nOur first project: building a free school for underprivileged children in the village of Ilara.\nTogether, let's give these children access to education and a better future! ",
 		quote: "“The ocean is a multitude of drops of water” - Jaya",
 		aboutTitle: "Our purpose",
 		aboutContent:
-			"• Help underprivileged children in India access education through partnerships with local education support groups.\n• Promote, support, and accompany women's integration into the workforce while advocating for greater equity.\n• Fund and support humanitarian, ecological, and economic projects to improve living conditions in India.",
+			"Help underprivileged children in India gain access to education by supporting their schooling.\nPromote, support, and accompany women's integration into the workforce while advocating for greater equity.\nFund and support humanitarian, ecological, and economic projects to improve living conditions in India.",
 		donate: "Donate",
 		join: "Join us",
 		nonProfit: "We are non-profit charity NGO",

@@ -64,6 +64,7 @@
 .home-intro {
 	padding: 2rem 1rem;
 	text-align: center;
+	margin-bottom: 3rem;
 }
 
 .intro {
@@ -124,14 +125,14 @@
 }
 
 .card-icon {
-	width: 50px;
-	height: 50px;
+	width: 90px;
+	height: 90px;
 	margin-bottom: 1rem;
 }
 
 .card-text {
 	margin-top: 1rem;
-	font-size: 0.95rem;
+	font-size: 1rem;
 	color: var(--primary-color);
 }
 
@@ -176,13 +177,17 @@
 .about-image {
 	width: 90%;
 	max-width: 350px;
-	border-radius: 8px;
+	border-radius: 40px 0;
+	object-fit: cover;
+	object-position: center;
+
 }
 
 .about-text {
 	width: 90%;
 	max-width: 600px;
 	color: var(--primary-color);
+	
 }
 
 .about-title-home {
@@ -190,7 +195,7 @@
 }
 
 .about-text p {
-	margin-bottom: 1rem;
+	margin-bottom: 1.5rem;
 	line-height: 1.5;
 	font-size: 1rem;
 }
@@ -239,6 +244,10 @@
 		font-size: 1.1rem;
 	}
 
+	.home-intro {
+		margin-bottom: 8rem;
+	}
+
 	.intro {
 		font-size: 1.5rem;
 		margin: 3rem 0;
@@ -260,11 +269,17 @@
 
 	.about-image {
 		max-width: 550px;
+		height: 350px;
 	}
 
 	.about-text {
 		max-width: 550px;
 		margin-left: 2rem;
+		font-size: 1.2rem;
+	}
+
+	.about-text p {
+		font-size: 1.1rem;
 	}
 
 	.orange-banner {
@@ -273,6 +288,7 @@
 
 	.orange-text {
 		margin-bottom: 8rem;
+		font-size: 1.8rem;
 	}
 
 	.info-cards {

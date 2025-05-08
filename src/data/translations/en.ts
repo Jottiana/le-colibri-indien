@@ -66,12 +66,7 @@ export const en = {
 		},
 		pageTitle: "About us",
 		historyTitle: "Our story",
-		historyText: `This is the meeting of two people with a common dream: to help others.
-			
-			"Shubham and I have been friends for some time, our shared values have brought us very close. During a conversation where the topic revolved around money, we had exchanged our ideas “what would you do if you were rich?”. He replied that he wanted to open a school for needy children in his home village. He loves his village so much, and the children even more! And I replied that I'd like to help people in need, especially in India, and children in particular. So we concluded with "why not do it together? This is where it all began. At first it was just a daydream, but then we got into the swing of things and realized that it was possible. And all doors opened along the way... we just went for it!"
-			
-			Despite a different culture in two fundamentally opposed countries, we're on the same wavelength when it comes to how we see things, the world, how we want to help, remedy ...
-			
+		historyText: `Shubham and I have been friends for a long time, and our values have brought us very close. During a conversation about money, we exchanged ideas: “What would you do if you were rich?” He replied that he would open a school for children in his home village. And I replied that I'd like to help people in need, especially in India, and children in particular. So we concluded by saying “why not do it together?”. At first it was just a daydream, but then we got into the swing of things and realized that it was possible. All doors opened along the way... we just went for it!
 			So Shubham created Meena Hope Foundation, the local Indian referral association for our projects, and I created Le Colibri Indien, the association that communicates about our actions and manages the funds from France.`,
 
 		teamTitle: "Our team",

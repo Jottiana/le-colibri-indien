@@ -69,12 +69,7 @@ export const fr = {
 		},
 		pageTitle: "À propos de nous",
 		historyTitle: "Notre histoire",
-		historyText: `C’est la rencontre de deux personnes au rêve commun : celui d’aider les autres.
-	
-	« Shubham et moi sommes amis depuis quelques temps, nos valeurs communes nous ont beaucoup rapprochées. Lors d’une conversation où le sujet tournait autour de l’argent, nous avions échangé nos idées « que ferais-tu si tu étais riche ? ». Lui a répondu qu’il voulait ouvrir une école pour les enfants dans le besoin dans son village natal. Il aime tant son village, et encore plus les enfants ! Et moi j’ai répondu que j’aimerais aider les personnes dans le besoin, en Inde surtout, et les enfants en priorité. Alors on a conclu par « pourquoi pas le faire ensemble ? C’est ici que tout a commencé. Au début c’était une rêvasserie, puis on s’est prêté au jeu et on s’est rendu compte que c’était possible. Et toutes les portes se sont ouvertes sur le chemin… nous nous sommes lancés ! »
-	
-	Malgré une culture différente de deux pays fondamentalement opposés, nous sommes sur la même longueur d’onde en ce qui concerne comment nous voyons les choses, le monde, comment nous souhaitons aider, y remédier …
-	
+		historyText: `Shubham et moi sommes ami·e·s depuis longtemps ; nos valeurs nous ont beaucoup rapproché·e·s. Lors d’une conversation autour de l’argent, nous avons échangé nos idées : « que ferais-tu si tu étais riche ? ». Lui a répondu qu’il ouvrirait une école pour les enfants dans son village natal. Et moi j’ai répondu que j’aimerais aider les personnes dans le besoin, en Inde surtout, et les enfants en priorité. Alors on a conclu par « pourquoi pas le faire ensemble ? ». Au début c’était une rêvasserie, puis on s’est prêté au jeu et on s’est rendu compte que c’était possible. Toutes les portes se sont ouvertes sur le chemin… nous nous sommes lancé·e·s !
 	Shubham a donc créé Meena Hope Foundation, l’association référente locale indienne de nos projets, et moi j’ai créé Le Colibri Indien, l’association qui communique sur nos actions et qui gère les fonds depuis la France.`,
 
 		teamTitle: "Notre équipe",

@@ -16,7 +16,7 @@ body.light {
 	color: #18421a;
 	--event-details-bg: #fafafa;
 	--important-note: #c62828;
-	--event-link-color: var(--tertiary-color);
+	--tertiary-color-light: var(--tertiary-color);
 }
 
 body.dark {
@@ -24,7 +24,7 @@ body.dark {
 	color: #fffef7;
 	--event-details-bg: #444444;
 	--important-note: #ff5f5f;
-	--event-link-color: #81c784;
+	--tertiary-color-light: #81c784;
 
 }
 

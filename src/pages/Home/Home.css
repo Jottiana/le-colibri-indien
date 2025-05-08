@@ -156,7 +156,7 @@
 .quote {
 	font-style: italic;
 	font-size: 1.4rem;
-	color: var(--tertiary-color);
+	color: var(--tertiary-color-light);
 	font-family: "Merriweather", serif;
 	text-align: center;
 	padding: 0 1rem;
@@ -186,8 +186,6 @@
 .about-text {
 	width: 90%;
 	max-width: 600px;
-	color: var(--primary-color);
-	
 }
 
 .about-title-home {

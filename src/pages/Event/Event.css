@@ -150,7 +150,7 @@
 }
 
 .event-details a {
-	color: var(--event-link-color);
+	color: var(--tertiary-color-light);
 	text-decoration: none;
 }
 

@@ -4,7 +4,7 @@ import { translations } from "../../data/translations";
 import heroImage from "/assets/kids-celebrating-indian-republic-day-light-2.jpg";
 import childImage from "/assets/woman-teaching-classroom.jpg";
 import donationIcon from "/assets/donation-icon-black.svg";
-import galaIcon from "/assets/gala-icon-black.svg";
+import galaIcon from "/assets/gala-calendar-icon-black.svg";
 import membershipIcon from "/assets/membership-icon-black.svg";
 
 function Home() {

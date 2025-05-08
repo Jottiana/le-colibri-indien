@@ -3,7 +3,6 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-color: #fdfdfd;
 	margin-bottom: 3rem;
 }
 
@@ -137,8 +136,9 @@
 }
 
 .event-details {
-	background-color: #fafafa;
+	background-color: var(--event-details-bg);
 	border-left: 4px solid var(--tertiary-color);
+	border-radius: 0 12px 12px 0;
 	margin-bottom: 2.5rem;
 	padding: 1rem;
 }
@@ -149,9 +149,19 @@
 	line-height: 1.6;
 }
 
+.event-details a {
+	color: var(--event-link-color);
+	text-decoration: none;
+}
+
+.event-details a:hover {
+	text-decoration: underline;
+}
+
+
 .event-note {
 	font-weight: bold;
-	color: #c62828;
+	color: var(--important-note);
 }
 
 .event-cta {

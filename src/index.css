@@ -4,9 +4,6 @@
 	--tertiary-color: #2e7d32;
 
 	--deep-green: #0a1d0b;
-
-	--background-light: #f5f5f5;
-	--background-dark: #2a2a2a;
 }
 
 * {
@@ -17,11 +14,18 @@
 body.light {
 	background-color: #fffef7;
 	color: #18421a;
+	--event-details-bg: #fafafa;
+	--important-note: #c62828;
+	--event-link-color: var(--tertiary-color);
 }
 
 body.dark {
 	background-color: #1b1b1b;
 	color: #fffef7;
+	--event-details-bg: #444444;
+	--important-note: #ff5f5f;
+	--event-link-color: #81c784;
+
 }
 
 button {

@@ -4,6 +4,7 @@
 	flex-direction: column;
 	align-items: center;
 	background-color: #fdfdfd;
+	margin-bottom: 3rem;
 }
 
 .event-hero {
@@ -38,38 +39,21 @@
 	text-align: center;
 }
 
-.event-title,
-.event-date-box {
-	font-family: "Jost", sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	font-size: 2rem;
-	color: black;
-}
-
-.event-date-box {
-	font-family: "Jost", sans-serif;
-	text-transform: uppercase;
-	color: black;
-}
-
-.event-info-box {
-	color: black;
-	font-size: 1rem;
-	max-width: 90%;
-}
-
-.event-maps-link {
-	color: inherit;
+.event-maps-itinerary {
+	font-size: 0.85rem;
+	font-style: italic;
+	color: var(--tertiary-color);
 	text-decoration: none;
+	display: inline-flex;
+	align-items: center;
+	gap: 0.4rem;
 	cursor: pointer;
 	pointer-events: auto;
 }
 
-.event-maps-link:hover {
+.event-maps-itinerary:hover {
 	text-decoration: underline;
 }
-
 
 /* .calendar-button {
 	padding: 0.6rem 1.2rem;
@@ -87,32 +71,82 @@
 	background-color: #004d40;
 } */
 
+.event-title, .event-info-box {
+	background-color: rgba(227, 220, 211, 0.314);
+	padding: 1rem 2rem;
+	border-radius: 40px 0;
+	color: var(--deep-green);
+}
+
+.event-title {
+	font-family: "Nunito", sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 2rem;
+}
+
+.event-info-box {
+	font-size: 1rem;
+	max-width: 90%;
+}
+
+.event-address {
+	font-size: 1rem;
+	line-height: 1.4;
+	margin-bottom: 0.5rem;
+}
+
+.event-maps-itinerary {
+	font-size: 0.85rem;
+	font-style: italic;
+	color: var(--tertiary-color);
+	text-decoration: none;
+	display: inline-flex;
+	align-items: center;
+	gap: 0.4rem;
+	cursor: pointer;
+	pointer-events: auto;
+}
+
+.event-maps-itinerary:hover {
+	text-decoration: underline;
+}
+
+.location-icon {
+	width: 20px;
+	height: 20px;
+}
+
 .event-content {
 	max-width: 800px;
-	padding: 2rem 1.2rem;
+	padding: 3rem 2rem;
 	text-align: center;
 }
 
 .event-intro,
 .event-project {
-	font-size: 1.2rem;
-	margin-bottom: 1.5rem;
-	line-height: 1.6;
+	font-size: 1.1rem;
+	margin-bottom: 2rem;
+	line-height: 1.8;
+	padding: 0 10%;
 }
 
 .event-project {
-	margin-bottom: 3rem;
+	margin-bottom: 3.5rem;
 }
 
 .event-details {
 	background-color: #fafafa;
 	border-left: 4px solid var(--tertiary-color);
-	margin-bottom: 2rem;
+	margin-bottom: 2.5rem;
+	padding: 1rem;
 }
 
 .event-details p {
-	margin: 0.5rem 0;
-	font-size: 1.1rem;
+	margin: 0.7rem 0;
+	font-size: 1rem;
+	line-height: 1.6;
 }
 
 .event-note {
@@ -120,9 +154,13 @@
 	color: #c62828;
 }
 
+.event-cta {
+	margin-top: 3rem;
+}
+
 .event-cta p {
 	font-size: 1.1rem;
-	margin-bottom: 0.5rem;
+	margin-bottom: 1rem;
 }
 
 .event-register-link {
@@ -142,6 +180,10 @@
 }
 
 @media (min-width: 768px) {
+	.event {
+		margin-bottom: 8rem;
+	}
+
 	.event-overlay {
 		top: 4rem;
 		left: 4rem;
@@ -150,14 +192,19 @@
 		gap: 4rem;
 	}
 
-	.event-title,
-	.event-date-box {
+	.event-title {
 		font-size: 3rem;
 	}
 
 	.event-info-box {
 		font-size: 2rem;
 		text-align: left;
+	}
+
+	.event-intro,
+	.event-project {
+		font-size: 1.2rem;
+		padding: 0;
 	}
 
 	/* .calendar-button {

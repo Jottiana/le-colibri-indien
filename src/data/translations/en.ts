@@ -27,10 +27,6 @@ export const en = {
 		banner: "🎉 Charity gala on May 31, 2025 - Click here to find out more 🎉",
 	},
 
-	aboutus: {
-		title: "Our Story",
-		content: "The association was founded in 2023 to help...",
-	},
 	actions: {
 		title: "Our current actions",
 		description:
@@ -61,8 +57,14 @@ export const en = {
 		contact: "Contact",
 	},
 	story: {
+		alt: {
+			history: "Our history in pictures",
+			founder1: "Portrait of Laëtitia, co-founder",
+			founder2: "Portrait of Shubham, co-founder",
+			goals: "Laëtitia and Shubham with children",
+			missions: "Laëtitia and Shubham with children",
+		},
 		pageTitle: "About us",
-
 		historyTitle: "Our story",
 		historyText: `This is the meeting of two people with a common dream: to help others.
 			
@@ -73,15 +75,14 @@ export const en = {
 			So Shubham created Meena Hope Foundation, the local Indian referral association for our projects, and I created Le Colibri Indien, the association that communicates about our actions and manages the funds from France.`,
 
 		teamTitle: "Our team",
+		ourTeam: "👉 Click on a picture to find out more",
 		teamMembers: [
 			{
 				name: "Laëtitia Hornut",
-				short: "Laëtitia has always been involved in humanitarian work...",
 				full: "Laëtitia has always been involved in humanitarian work and social justice. She founded the association Le Colibri Indien with the aim of creating links, solidarity and bridges between cultures.",
 			},
 			{
 				name: "Shubham Kumar",
-				short: "Shubham is deeply attached to his native village...",
 				full: "Shubham is deeply attached to his native village in India. He founded the Meena Hope Foundation to provide underprivileged children with a quality education and a better future.",
 			},
 		],
@@ -108,7 +109,11 @@ export const en = {
 	},
 
 	galaEvent: {
-		h1: "Charity Gala",
+		h1: "Charity Gala\nMAY 31, 2025",
+		locationBox:
+			"Salle Chorus by Hôtel Leprince\n33 Square place de la République\n72000 Le Mans",
+		itineraryLinkText: "View itinerary",
+		altLocationIcon: "Location icon",
 		intro:
 			"With the aim of officially presenting our association and raising public awareness of our actions, we are organizing an exceptional charity gala.",
 		project:
@@ -118,11 +123,8 @@ export const en = {
 			"📍 Salle Chorus by Hôtel Leprince, 33 Square place de la République, 72000 Le Mans, France",
 		note: "⚠️ Invitation-only event - seating limited to 150 participants.",
 		cta: "To register, please use the link below:",
-		inscriptionLinkText: "Register for the Gala",
+		inscriptionLinkText: "Register for the gala",
 		addToCalendar: "Add to my calendar",
-		dateBox: "MAY 31, 2025",
-		locationBox:
-			"Salle Chorus by Hôtel Leprince\n33 Square place de la République\n72000 Le Mans",
 		mapsLink: "https://maps.google.com/?q=Chorus+by+Hotel+Leprince,+Le+Mans",
 		alt: "Image illustrating the charity gala",
 	},

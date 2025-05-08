@@ -3,6 +3,7 @@ import { useGlobalContext } from "../../context/GlobalContext";
 import { translations } from "../../data/translations";
 import galaImage from "/assets/event-gala.png";
 import galaImageMobile from "/assets/event-gala-mobile.png";
+import locationIcon from "/assets/location-icon.svg";
 
 function Event() {
 	const { language } = useGlobalContext();
@@ -20,25 +21,31 @@ function Event() {
 				/>
 
 				<div className="event-overlay">
-					<h1 className="event-title">{t.h1}</h1>
-
-					<div className="event-date-box">
-						<p className="event-date">{t.dateBox}</p>
-					</div>
+					<h1 className="event-title">
+						{t.h1.split("\n").map((line: string, i: number) => (
+							<span key={i}>
+								{line}
+								<br />
+							</span>
+						))}
+					</h1>
 
 					<div className="event-info-box">
-						<a
-							href={t.mapsLink}
-							target="_blank"
-							rel="noopener noreferrer"
-							className="event-maps-link"
-						>
+						<p className="event-address">
 							{t.locationBox.split("\n").map((line: string, i: number) => (
 								<span key={i}>
 									{line}
 									<br />
 								</span>
 							))}
+						</p>
+						<a
+							href={t.mapsLink}
+							target="_blank"
+							rel="noopener noreferrer"
+							className="event-maps-itinerary"
+						>
+							<img src={locationIcon} alt={t.altLocationIcon} className="location-icon"/> {t.itineraryLinkText}
 						</a>
 					</div>
 				</div>
@@ -56,7 +63,10 @@ function Event() {
 							target="_blank"
 							rel="noopener noreferrer"
 							className="event-maps-link"
-						>{t.location}</a></p>
+						>
+							{t.location}
+						</a>
+					</p>
 					<p className="event-note">{t.note}</p>
 				</div>
 

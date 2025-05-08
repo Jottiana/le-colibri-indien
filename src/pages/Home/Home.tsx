@@ -53,6 +53,8 @@ function Home() {
 					<a
 						href="https://www.helloasso.com/associations/association-le-colibri-indien/formulaires/1"
 						className="info-card"
+						target="_blank"
+						rel="noopener noreferrer"
 					>
 						<img src={donationIcon} alt={t.card1Alt} className="card-icon" />
 						<h2>{t.card1}</h2>
@@ -62,6 +64,8 @@ function Home() {
 					<a
 						href="https://www.helloasso.com/associations/association-le-colibri-indien/evenements/billetterie-gala-de-charite"
 						className="info-card"
+						target="_blank"
+						rel="noopener noreferrer"
 					>
 						<img src={galaIcon} alt={t.card2Alt} className="card-icon" />
 						<h2>{t.card2}</h2>
@@ -71,6 +75,8 @@ function Home() {
 					<a
 						href="https://www.helloasso.com/associations/association-le-colibri-indien/adhesions/adhesion-le-colibri-indien"
 						className="info-card"
+						target="_blank"
+						rel="noopener noreferrer"
 					>
 						<img src={membershipIcon} alt={t.card3Alt} className="card-icon" />
 						<h2>{t.card3}</h2>

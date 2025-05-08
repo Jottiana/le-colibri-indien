@@ -70,6 +70,7 @@
 .intro {
 	font-size: 1.2rem;
 	margin: 2rem 0;
+	line-height: 1.8;
 }
 
 .orange-banner {
@@ -99,7 +100,6 @@
 	align-items: center;
 	gap: 1.5rem;
 	width: 100%;
-	/* max-width: 1200px; */
 }
 
 .info-card {
@@ -249,7 +249,7 @@
 	}
 
 	.intro {
-		font-size: 1.5rem;
+		font-size: 1.4rem;
 		margin: 3rem 0;
 	}
 
@@ -276,10 +276,6 @@
 		max-width: 550px;
 		margin-left: 2rem;
 		font-size: 1.2rem;
-	}
-
-	.about-text p {
-		font-size: 1.1rem;
 	}
 
 	.orange-banner {

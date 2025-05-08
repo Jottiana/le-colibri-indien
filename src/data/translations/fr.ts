@@ -28,11 +28,6 @@ export const fr = {
 			"🎉 Gala de charité le 31 mai 2025 - Cliquez ici pour en savoir plus 🎉",
 	},
 
-	aboutus: {
-		title: "Notre Histoire",
-		content: "L'association a été fondée en 2023 pour venir en aide...",
-	},
-
 	actions: {
 		title: "Nos actions en cours",
 		description:
@@ -65,8 +60,14 @@ export const fr = {
 	},
 
 	story: {
+		alt: {
+			history: "Notre histoire en image",
+			founder1: "Portrait de Laëtitia, cofondatrice",
+			founder2: "Portrait de Shubham, cofondateur",
+			goals: "Laëtitia et Shubham avec les enfants",
+			missions: "Laëtitia et Shubham avec les enfants",
+		},
 		pageTitle: "À propos de nous",
-
 		historyTitle: "Notre histoire",
 		historyText: `C’est la rencontre de deux personnes au rêve commun : celui d’aider les autres.
 	
@@ -77,15 +78,14 @@ export const fr = {
 	Shubham a donc créé Meena Hope Foundation, l’association référente locale indienne de nos projets, et moi j’ai créé Le Colibri Indien, l’association qui communique sur nos actions et qui gère les fonds depuis la France.`,
 
 		teamTitle: "Notre équipe",
+		ourTeam: "👉 Cliquez sur une photo pour en savoir plus",
 		teamMembers: [
 			{
 				name: "Laëtitia Hornut",
-				short: "Laëtitia est engagée depuis toujours dans l’humanitaire...",
 				full: "Laëtitia est engagée depuis toujours dans l’humanitaire et la justice sociale. Elle a fondé l’association Le Colibri Indien avec l’objectif de créer du lien, de la solidarité et des ponts entre les cultures.",
 			},
 			{
 				name: "Shubham Kumar",
-				short: "Shubham est profondément attaché à son village natal...",
 				full: "Shubham est profondément attaché à son village natal en Inde. Il a fondé Meena Hope Foundation pour offrir aux enfants démunis une éducation de qualité et un avenir meilleur.",
 			},
 		],
@@ -108,13 +108,14 @@ export const fr = {
 	Notre action du moment est la construction d’une école dans le village Ilara, près de Bodhgaya dans l’État du Bihar en Inde.
 	
 	Si vous souhaitez nous soutenir d’une quelconque manière et/ou nous rejoindre dans cette incroyable aventure, contactez-nous !`,
-
-		more: "en savoir plus",
-		less: "voir moins",
 	},
 
 	galaEvent: {
-		h1: "Gala de charité",
+		h1: "Gala de charité\n31 MAI 2025",
+		locationBox:
+			"Salle Chorus by Hôtel Leprince\n33 Square place de la République\n72000 Le Mans",
+		itineraryLinkText: "Voir l'itinéraire",
+		altLocationIcon: "Icône de localisation",
 		intro:
 			"Dans le but de présenter officiellement notre association et de sensibiliser le public à nos actions, nous organisons un gala de charité exceptionnel.",
 		project:
@@ -124,11 +125,8 @@ export const fr = {
 			"📍 Salle Chorus by Hôtel Leprince, 33 Square place de la République, 72000 Le Mans, France",
 		note: "⚠️ Évènement sur invitation uniquement – nombre de places limité à 150 participant·e·s.",
 		cta: "Pour vous inscrire, veuillez utiliser le lien ci-dessous :",
-		inscriptionLinkText: "S'inscrire au Gala",
+		inscriptionLinkText: "S'inscrire au gala",
 		addToCalendar: "Ajouter à mon agenda",
-		dateBox: "31 MAI 2025",
-		locationBox:
-			"Salle Chorus by Hôtel Leprince\n33 Square place de la République\n72000 Le Mans",
 		mapsLink: "https://maps.google.com/?q=Chorus+by+Hotel+Leprince,+Le+Mans",
 		alt: "Image illustrant le gala de charité",
 	},

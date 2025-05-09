@@ -13,13 +13,17 @@ function Footer() {
 	return (
 		<footer className="footer">
 			<div className="footer-top">
-				<div className="footer-logo-wrapper">
-					<img src={colibriLogo} alt="Logo Colibri" className="footer-logo" />
-				</div>
+				<a
+					href="/"
+					className="footer-logo-wrapper"
+					aria-label={t.aria.homeLink}
+				>
+					<img src={colibriLogo} alt={t.aria.logoAlt} className="footer-logo" />
+				</a>
 			</div>
 
 			<div className="footer-columns">
-				<div className="footer-column">
+				<nav className="footer-column" aria-label={t.aria.aboutSection}>
 					<h3>{t.aboutTitle}</h3>
 					<ul>
 						<li>
@@ -38,9 +42,9 @@ function Footer() {
 							<a href="/legalnotice">{t.aboutLinks.legal}</a>
 						</li>
 					</ul>
-				</div>
+				</nav>
 
-				<div className="footer-column">
+				<nav className="footer-column" aria-label={t.aria.actSection}>
 					<h3>{t.actTitle}</h3>
 					<ul>
 						<li>
@@ -71,9 +75,9 @@ function Footer() {
 							</a>
 						</li>
 					</ul>
-				</div>
+				</nav>
 
-				<div className="footer-column">
+				<nav className="footer-column" aria-label={t.aria.socialSection}>
 					<h3>{t.socialTitle}</h3>
 					<ul>
 						<li>
@@ -104,7 +108,7 @@ function Footer() {
 							</a>
 						</li>
 					</ul>
-				</div>
+				</nav>
 			</div>
 
 			<div className="footer-bottom">
@@ -115,6 +119,8 @@ function Footer() {
 						href="https://www.facebook.com/le.colibri.indien/"
 						target="_blank"
 						rel="noopener noreferrer"
+						aria-label={t.aria.facebook}
+						title="Facebook"
 					>
 						<div className="social-icon-wrapper">
 							<img src={facebookLogo} alt="Facebook" />
@@ -124,6 +130,8 @@ function Footer() {
 						href="https://www.helloasso.com/associations/association-le-colibri-indien"
 						target="_blank"
 						rel="noopener noreferrer"
+						aria-label={t.aria.helloasso}
+						title="HelloAsso"
 					>
 						<div className="social-icon-wrapper">
 							<img src={helloassoLogo} alt="HelloAsso" />
@@ -133,6 +141,8 @@ function Footer() {
 						href="https://www.instagram.com/le_colibri_indien/"
 						target="_blank"
 						rel="noopener noreferrer"
+						aria-label={t.aria.instagram}
+						title="Instagram"
 					>
 						<div className="social-icon-wrapper">
 							<img src={instagramLogo} alt="Instagram" />

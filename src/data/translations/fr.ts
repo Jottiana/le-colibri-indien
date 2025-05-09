@@ -183,5 +183,15 @@ export const fr = {
 			gala: "Participer au gala de charité",
 		},
 		siteBy: "Site créé par jottiana",
+		aria: {
+    homeLink: "Revenir à la page d’accueil",
+    logoAlt: "Logo de l’association Le Colibri Indien",
+    facebook: "Aller sur notre page Facebook (nouvel onglet)",
+    helloasso: "Aller sur notre page HelloAsso (nouvel onglet)",
+    instagram: "Aller sur notre page Instagram (nouvel onglet)",
+		aboutSection: "À propos de nous",
+		actSection: "Agir avec nous",
+		socialSection: "Nos réseaux sociaux",
+  },
 	},
 };

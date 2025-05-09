@@ -182,5 +182,15 @@ export const en = {
 			gala: "Join the charity gala",
 		},
 		siteBy: "Made by jottiana",
+		aria: {
+    homeLink: "Return to homepage",
+    logoAlt: "Logo of Le Colibri Indien association",
+    facebook: "Visit our Facebook page (opens in new tab)",
+    helloasso: "Visit our HelloAsso page (opens in new tab)",
+    instagram: "Visit our Instagram page (opens in new tab)",
+		aboutSection: "About us",
+		actSection: "Act with us",
+		socialSection: "Our social networks",
+  },
 	},
 };

@@ -154,8 +154,8 @@ export const en = {
 		creditsTitle: "Credits",
 		credits:
 			"Texts and photos: Laëtitia Hornut.\nWebsite designed and developed by Agnes MB.",
-		facebookFlaticonCredit: "Facebook icon by Freepik – Flaticon.",
-		instagramFlaticonCredit: "Instagram icon by edt.im – Flaticon.",
+		facebookFlaticonCredit: "Facebook icon by Icons8.",
+		instagramFlaticonCredit: "Instagram icon by Icons8.",
 		freepikCredit: "Additional photos from Freepik.",
 		rightsTitle: "Copyright",
 		rights:

@@ -141,7 +141,7 @@ export const fr = {
 		title: "Mentions légales",
 		organizationTitle: "Association",
 		organization:
-			"Le Colibri indien est une association située au 18 rue de l'Ancienne Ecole 72290 Courceboeufs.\nCourriel : lecolibriindien@gmail.com",
+			"Siège social : 18 rue de l'Ancienne Ecole 72290 Courceboeufs.\nCourriel : lecolibriindien@gmail.com",
 		editorTitle: "Éditrice du site",
 		editorIntro: "Ce site est édité par",
 		github: "jottiana",
@@ -155,8 +155,8 @@ export const fr = {
 		creditsTitle: "Crédits",
 		credits:
 			"Textes et photos : Laëtitia Hornut.\nSite conçu et développé par Agnès MB.",
-		facebookFlaticonCredit: "Icône Facebook créée par Freepik – Flaticon.",
-		instagramFlaticonCredit: "Icône Instagram créée par edt.im – Flaticon.",
+		facebookFlaticonCredit: "Icône Facebook créée par Icons8.",
+		instagramFlaticonCredit: "Icône Instagram créée par Icons8.",
 		freepikCredit: "Photos supplémentaires issues de Freepik.",
 		rightsTitle: "Droits d’autrice",
 		rights:

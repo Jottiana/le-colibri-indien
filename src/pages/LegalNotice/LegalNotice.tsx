@@ -62,7 +62,7 @@ function LegalNotice() {
 				</p>
 				<p>
 					<a
-						href="https://www.flaticon.com/fr/icones-gratuites/facebook"
+						href="https://icons8.com/icon/8818/facebook"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
@@ -71,7 +71,7 @@ function LegalNotice() {
 				</p>
 				<p>
 					<a
-						href="https://www.flaticon.com/fr/icones-gratuites/instagram"
+						href="https://icons8.com/icon/32309/instagram"
 						target="_blank"
 						rel="noopener noreferrer"
 					>

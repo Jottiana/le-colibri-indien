@@ -45,10 +45,15 @@ export const en = {
 		invitationNote:
 			"This event is by invitation only, as attendance is limited to 150 guests.",
 	},
+
 	contact: {
-		title: "Contact us",
-		content: "Here are our contact details",
+		title: "Contact",
+		content:
+			"For more information, to donate, become a volunteer or member, or help us in any way with this project, get in touch!",
+		showPhone: "Show phone number",
+		showEmail: "Show email address",
 	},
+
 	navbar: {
 		home: "Home",
 		event: "Event",

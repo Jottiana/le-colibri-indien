@@ -48,9 +48,13 @@ export const fr = {
 	},
 
 	contact: {
-		title: "Contactez-nous",
-		content: "Voici nos coordonnées",
+		title: "Contact",
+		content:
+			"Pour plus d’informations, faire un don, devenir volontaire ou membre, ou nous aider d’une manière ou d’une autre dans ce projet, contactez-nous !",
+		showPhone: "Voir le numéro de téléphone",
+		showEmail: "Voir l'adresse mail",
 	},
+
 	navbar: {
 		home: "Accueil",
 		event: "Evènement",

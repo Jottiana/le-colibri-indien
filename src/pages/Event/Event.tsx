@@ -45,7 +45,12 @@ function Event() {
 							rel="noopener noreferrer"
 							className="event-maps-itinerary"
 						>
-							<img src={locationIcon} alt={t.altLocationIcon} className="location-icon"/> {t.itineraryLinkText}
+							<img
+								src={locationIcon}
+								alt={t.altLocationIcon}
+								className="location-icon"
+							/>{" "}
+							{t.itineraryLinkText}
 						</a>
 					</div>
 				</div>
@@ -77,6 +82,7 @@ function Event() {
 						target="_blank"
 						rel="noopener noreferrer"
 						className="event-register-link"
+						aria-label={t.inscriptionLinkText}
 					>
 						{t.inscriptionLinkText}
 					</a>

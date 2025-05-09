@@ -17,6 +17,12 @@ body.light {
 	--event-details-bg: #fafafa;
 	--important-note: #c62828;
 	--tertiary-color-light: var(--tertiary-color);
+	--text-color: #222;
+	--card-border: #ddd;
+	--button-bg: #444;
+	--button-hover: #666;
+	--link-color: #0077cc;
+	--link-hover: #004999;
 }
 
 body.dark {
@@ -25,6 +31,12 @@ body.dark {
 	--event-details-bg: #444444;
 	--important-note: #ff5f5f;
 	--tertiary-color-light: #81c784;
+	--text-color: #fffef7;
+	--card-border: #555;
+	--button-bg: #888;
+	--button-hover: #aaa;
+	--link-color: #aadfff;
+	--link-hover: #61dafb;
 
 }
 

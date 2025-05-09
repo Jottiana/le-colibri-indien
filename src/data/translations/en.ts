@@ -52,6 +52,12 @@ export const en = {
 			"For more information, to donate, become a volunteer or member, or help us in any way with this project, get in touch!",
 		showPhone: "Show phone number",
 		showEmail: "Show email address",
+		addressTitle: "Postal Address",
+		addressLines: [
+		"18 rue de l'Ancienne Ecole",
+		"72290 Courceboeufs",
+		"France"
+		],
 	},
 
 	navbar: {

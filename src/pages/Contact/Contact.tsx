@@ -25,6 +25,14 @@ function Contact() {
 					t={t}
 				/>
 			))}
+			<div className="postal-address">
+				<h2>{t.addressTitle}</h2>
+				<address>
+					{t.addressLines.map((line, index) => (
+						<div key={index}>{line}</div>
+					))}
+				</address>
+			</div>
 		</div>
 	);
 }

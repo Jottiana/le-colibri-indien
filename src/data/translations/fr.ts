@@ -126,10 +126,40 @@ export const fr = {
 		alt: "Image illustrant le gala de charité",
 	},
 
+
 	notFoundPage: {
 		pageNotFound:
 			"404 - Page non trouvée\nOups, la page que vous cherchez n'existe pas.",
 		alt404: "Enfant qui écrit “404” au tableau à l'école",
 		backToHome: "Retour à l'accueil",
 	},
+
+
+	legalNotice: {
+		title: "Mentions légales",
+		organizationTitle: "Association",
+		organization: "Le Colibri indien est une association située au 18 rue de l'Ancienne Ecole 72290 Courceboeufs.\nCourriel : lecolibriindien@gmail.com",
+    editorTitle: "Éditrice du site",
+    editorIntro: "Ce site est édité par",
+    github: "jottiana",
+    linkedin: "(Agnès MB)",
+		siteManagementTitle: "Gestion du site",
+		siteManagement: "Pour la bonne gestion du site, l’éditrice pourra à tout moment :\n–  suspendre, interrompre ou limiter l’accès à tout ou partie du site, réserver l’accès au site, ou à certaines parties du site, à une catégorie déterminée d’internautes ;\n–  supprimer toute information pouvant en perturber le fonctionnement ou entrant en contravention avec les lois nationales ou internationales ; \n–  suspendre le site afin de procéder à des mises à jour.",
+    hostingTitle: "Hébergement",
+    hosting:
+      "Site hébergé par GitHub Pages – GitHub, Inc., 88 Colin P Kelly Jr St, San Francisco, CA 94107, United States.",
+    creditsTitle: "Crédits",
+    credits:
+      "Textes et photos : Laëtitia Hornut.\nSite conçu et développé par Agnès MB.",
+    facebookFlaticonCredit: "Icône Facebook créée par Freepik – Flaticon.",
+		instagramFlaticonCredit: "Icône Instagram créée par edt.im – Flaticon.",
+		freepikCredit: "Photos supplémentaires issues de Freepik.",
+		rightsTitle: "Droits d’autrice",
+    rights:
+      "Le contenu de ce site (textes, photos, code) est protégé par le droit d’autrice. Toute reproduction est interdite sans autorisation.",
+		privacyTitle: "Vie privée et cookies",
+		privacy:
+  		"Ce site ne collecte aucune donnée personnelle et n'utilise pas de cookies de suivi. Les seules données éventuellement collectées sont celles que vous choisissez de fournir volontairement (ex. : en nous contactant).",
+
+		},
 };

@@ -130,4 +130,32 @@ export const en = {
 		alt404: "Child writing “404” on the blackboard at school",
 		backToHome: "Back to home",
 	},
+
+
+	legalNotice: {
+			title: "Legal Notice",
+			organizationTitle: "Organization",
+			organization: "Address: 18 rue de l'Ancienne Ecole 72290 Courceboeufs, France.\nMail: lecolibriindien@gmail.com",
+			editorTitle: "Site Publisher",
+			editorIntro: "This website is published by",
+			github: "jottiana",
+			linkedin: "(Agnes MB)",
+			siteManagementTitle: "Website management",
+			siteManagement: "For the proper management of the site, the editor may at any time: \n- suspend, interrupt or limit access to all or part of the site, restrict access to the site, or to certain parts of the site, to a specific category of Internet users;\n- remove any information that could disrupt its operation or contravene national or international laws;\n- suspend the site in order to carry out updates.",
+			hostingTitle: "Hosting",
+			hosting:
+				"This site is hosted by GitHub Pages – GitHub, Inc., 88 Colin P Kelly Jr St, San Francisco, CA 94107, United States.",
+			creditsTitle: "Credits",
+			credits:
+      "Texts and photos: Laëtitia Hornut.\nWebsite designed and developed by Agnes MB.",
+    	facebookFlaticonCredit: "Facebook icon by Freepik – Flaticon.",
+			instagramFlaticonCredit: "Instagram icon by edt.im – Flaticon.",
+			freepikCredit: "Additional photos from Freepik.",
+			rightsTitle: "Copyright",
+			rights:
+				"The content of this website (texts, photos, code) is protected by copyright. Reproduction without permission is prohibited.",
+			privacyTitle: "Privacy & Cookies",
+			privacy:
+  			"This site does not collect personal data and does not use tracking cookies. The only data that may be collected is that which you voluntarily choose to provide (e.g., when contacting us).",
+		},
 };

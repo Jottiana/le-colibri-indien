@@ -9,6 +9,7 @@ import NotFoundPage from "./pages/NotFoundPage/NotFoundPage";
 import Footer from "./components/Footer/Footer";
 import NavBar from "./components/NavBar/NavBar";
 import EventBanner from "./components/EventBanner/EventBanner";
+import LegalNotice from "./pages/LegalNotice/LegalNotice";
 
 function App() {
 	return (
@@ -21,6 +22,7 @@ function App() {
 				<Route path="/actions" element={<Actions />} />
 				<Route path="/contact" element={<Contact />} />
 				<Route path="/event" element={<Event />} />	
+				<Route path="/legalnotice" element={<LegalNotice />} />
 				<Route path="*" element={<NotFoundPage />} />
 			</Routes>
 			<Footer />

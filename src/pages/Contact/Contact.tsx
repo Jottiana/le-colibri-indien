@@ -10,7 +10,7 @@ function Contact() {
 
 	return (
 		<div className="contact-page">
-			<h1>{t.title}</h1>
+			<h1 className="page-title">{t.title}</h1>
 			<p>{t.content}</p>
 
 			{teamMembers.map((member) => (

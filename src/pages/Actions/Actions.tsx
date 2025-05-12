@@ -8,7 +8,7 @@ export default function Actions() {
 
 	return (
 		<section className="actions-container">
-			<h1 className="section-title">{t.title}</h1>
+			<h1 className="page-title">{t.title}</h1>
 			<div className="action-description">
 				{t.description.split("\n").map((line, index) => (
 					<p key={index}>{line}</p>

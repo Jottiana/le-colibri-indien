@@ -6,16 +6,6 @@
 	color: var(--text-color);
 }
 
-.contact-page h1 {
-	text-align: center;
-	font-size: 2.5rem;
-	font-weight: bold;
-	color: var(--primary-color);
-	line-height: 1.2;
-	padding: 0 5%;
-	margin-bottom: 2rem;
-}
-
 .contact-page p {
 	margin-bottom: 4rem;
 	font-size: 1.1rem;
@@ -25,6 +15,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: space-evenly;
 	margin-bottom: 4rem;
 	gap: 1rem;
 	border-bottom: 1px solid var(--card-border);

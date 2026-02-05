@@ -1,0 +1,303 @@
+:root {
+	--vr-bg-card: rgba(255, 255, 255, 0.14);
+	--vr-border: rgba(255, 255, 255, 0.2);
+	--vr-text: rgba(255, 255, 255, 0.92);
+	--vr-soft: rgba(255, 255, 255, 0.88);
+	--vr-shadow: 0 14px 40px rgba(0, 0, 0, 0.16);
+	--vr-radius-lg: 22px;
+	--vr-radius-md: 18px;
+	--vr-radius-pill: 999px;
+}
+
+.vrPage {
+	min-height: 100dvh;
+	padding: 18px 16px 28px;
+
+	background: linear-gradient(
+		135deg,
+		#ff2d7a 0%,
+		#ff5fa2 35%,
+		#ff9fc6 70%,
+		#ffd1e3 100%
+	);
+
+	color: rgba(255, 255, 255, 0.92);
+}
+
+.vrHero {
+	margin: 8px auto 20px;
+	max-width: 720px;
+	text-align: center;
+}
+
+.vrKicker {
+	margin: 0 0 6px;
+	font-size: 0.95rem;
+	letter-spacing: 0.4px;
+	opacity: 0.9;
+}
+
+.vrTitle {
+	margin: 0 0 10px;
+	font-size: clamp(1.6rem, 5.4vw, 2.3rem);
+	line-height: 1.15;
+}
+
+.vrLead {
+	margin: 0;
+	line-height: 1.55;
+	opacity: 0.9;
+}
+
+.vrSection {
+	margin: 22px auto 0;
+	max-width: 980px;
+}
+
+.vrSectionTitle {
+	margin: 0 0 12px;
+	font-size: 1.1rem;
+	letter-spacing: 0.2px;
+}
+
+.vrTimeline {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: grid;
+	gap: 14px;
+}
+
+.vrCard {
+	border-radius: var(--vr-radius-lg);
+	overflow: hidden;
+	background: var(--vr-bg-card);
+	border: 1px solid var(--vr-border);
+	backdrop-filter: blur(12px);
+	-webkit-backdrop-filter: blur(12px);
+	box-shadow: var(--vr-shadow);
+}
+
+.vrMedia {
+	position: relative;
+	aspect-ratio: 16 / 10;
+	background: rgba(0, 0, 0, 0.08);
+}
+
+.vrImg {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+	transform: scale(1.01);
+}
+
+.vrBody {
+	padding: 14px 14px 16px;
+}
+
+.vrTopline {
+	display: grid;
+	gap: 4px;
+	margin-bottom: 8px;
+}
+
+.vrSpotTitle {
+	margin: 0;
+	font-size: 1.15rem;
+	line-height: 1.25;
+}
+
+.vrLocation {
+	margin: 0;
+	font-size: 0.95rem;
+	opacity: 0.88;
+}
+
+.vrDesc {
+	margin: 10px 0 0;
+	line-height: 1.55;
+	opacity: 0.95;
+	white-space: pre-line;
+}
+
+.vrTags {
+	margin: 12px 0 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+}
+
+.vrTag {
+	padding: 7px 11px;
+	border-radius: var(--vr-radius-pill);
+	font-size: 0.88rem;
+	background: rgba(255, 255, 255, 0.16);
+	border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.vrActions {
+	margin: 12px 0 0;
+}
+
+.vrLink {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 40px;
+	padding: 8px 16px;
+	border-radius: var(--vr-radius-pill);
+
+	color: var(--vr-text);
+	text-decoration: none;
+	font-weight: 800;
+
+	background: linear-gradient(
+		135deg,
+		rgba(255, 45, 122, 0.9),
+		rgba(255, 120, 182, 0.9)
+	);
+	border: 1px solid rgba(255, 255, 255, 0.18);
+	box-shadow: 0 12px 26px rgba(0, 0, 0, 0.16);
+
+	transition: transform 120ms ease, filter 120ms ease, box-shadow 120ms ease;
+}
+
+.vrLink:hover {
+	transform: translateY(-1px);
+	filter: brightness(1.04);
+	box-shadow: 0 16px 34px rgba(0, 0, 0, 0.18);
+}
+
+.vrLink:focus-visible {
+	outline: none;
+	box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.26), 0 16px 34px
+		rgba(0, 0, 0, 0.18);
+}
+
+.vrOptions {
+	list-style: none;
+	padding: 0;
+	margin: 14px 0 0;
+	display: grid;
+	gap: 14px;
+}
+
+.vrOptionCard {
+	border-radius: var(--vr-radius-lg);
+	overflow: hidden;
+	background: var(--vr-bg-card);
+	border: 1px solid var(--vr-border);
+	backdrop-filter: blur(12px);
+	-webkit-backdrop-filter: blur(12px);
+	box-shadow: var(--vr-shadow);
+}
+
+.vrOptionMedia {
+	position: relative;
+	aspect-ratio: 16 / 9;
+	background: rgba(0, 0, 0, 0.08);
+}
+
+.vrOptionImg {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+	transform: scale(1.01);
+}
+
+.vrOptionEmoji {
+	position: absolute;
+	left: 12px;
+	top: 12px;
+	width: 40px;
+	height: 40px;
+	border-radius: var(--vr-radius-pill);
+	display: grid;
+	place-items: center;
+
+	background: rgba(0, 0, 0, 0.25);
+	border: 1px solid rgba(255, 255, 255, 0.18);
+	font-size: 1.1rem;
+}
+
+.vrOptionBody {
+	padding: 14px 14px 16px;
+}
+
+.vrOptionTitle {
+	margin: 0 0 6px;
+	font-size: 1.08rem;
+}
+
+.vrOptionDesc {
+	margin: 0;
+	line-height: 1.5;
+	opacity: 0.92;
+}
+
+.vrFooter {
+	margin: 22px auto 0;
+	max-width: 720px;
+	text-align: center;
+}
+
+.vrFooterText {
+	margin: 0;
+	opacity: 0.9;
+}
+
+@media (min-width: 860px) {
+	.vrTimeline {
+		gap: 18px;
+	}
+
+	.vrCard {
+		display: grid;
+		grid-template-columns: 42% 58%;
+	}
+
+	.vrMedia {
+		aspect-ratio: auto;
+		min-height: 100%;
+	}
+
+	.vrBody {
+		padding: 18px 18px 20px;
+	}
+
+	.vrOptions {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 16px;
+	}
+}
+
+.vrLocationLink {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+
+	margin: 0;
+	font-size: 0.95rem;
+	font-weight: 600;
+	text-decoration: none;
+
+	color: rgba(255, 255, 255, 0.9);
+	opacity: 0.9;
+
+	transition: opacity 120ms ease, transform 120ms ease;
+}
+
+.vrLocationLink:hover {
+	opacity: 1;
+	transform: translateX(2px);
+}
+
+.vrLocationLink:focus-visible {
+	outline: none;
+	box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.25);
+	border-radius: 8px;
+}

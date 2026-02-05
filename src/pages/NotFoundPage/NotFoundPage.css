@@ -1,0 +1,82 @@
+.not-found-container {
+	position: relative;
+	width: 100vw;
+	height: calc(100% - 25px);
+	overflow: hidden;
+}
+
+.not-found-image {
+  width: 100%;
+	height: calc(100% - 25px);
+	object-fit: cover;
+	object-position: center;
+	display: block;
+}
+
+.not-found-page-overlay {
+  position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+	padding: 2rem;
+	pointer-events: none;
+	z-index: 2;
+	text-align: center;
+	font-family: "Nunito", sans-serif;
+}
+
+.not-found-content {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.not-found-text {
+	position: absolute;
+	top: 75%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	text-align: center;
+	padding: 1.5rem 1rem;
+	background-color: rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+	backdrop-filter: blur(3px);
+	max-width: 90%;
+}
+
+.not-found-text {
+  font-family: var(--font-family-texte);
+  font-size: 1.2rem;
+  max-width: 600px;
+  line-height: 1.6;
+  margin: 0 auto;
+}
+
+.back-to-home-button {
+  pointer-events: auto;
+  padding: 0.75rem 1.5rem;
+  background-color: #ffffffaa;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+
+.back-to-home-button:hover {
+	background-color: #004d40;
+}
+

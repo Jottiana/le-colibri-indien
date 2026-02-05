@@ -1,0 +1,152 @@
+.navbar {
+	padding: 1rem;
+  width: 100%;
+  z-index: 10;
+  transition: background 0.4s ease;
+}
+
+.navbar.transparent {
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent);
+	position: absolute;
+}
+
+.navbar.colored {
+	background-color: var(--primary-color);
+}
+
+.navbar.transparent .nav-links li a {
+	color: white;
+}
+
+.navbar.transparent .logo {
+	color: white;
+}
+
+.nav-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo-img {
+	height: 80px;
+	object-fit: contain;
+}
+
+.logo {
+	font-weight: bold;
+	color: var(--secondary-color);
+	font-size: 1.8rem;
+	margin-left: 0.8rem;
+	text-decoration: none;
+}
+
+.nav-links {
+	flex-direction: column;
+	width: 100%;
+	padding: 1rem 0;
+	display: none;
+	list-style: none;
+	gap: 1rem;
+	padding: 1rem;
+	border-radius: 8px;
+}
+
+.nav-links.open {
+	display: flex;
+	background-color: var(--primary-color);
+}
+
+.nav-links li a {
+	text-decoration: none;
+	color: white;
+	font-size: 1.2rem;
+}
+
+.nav-links li.active a {
+	border-bottom: 2px solid white;
+}
+
+.nav-icons {
+	display: flex;
+	gap: 1rem;
+	margin-top: 1rem;
+}
+
+.icon-button {
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	background-color: #ffffffcc;
+	border: 2px solid #2e7d32;
+	color: #2e7d32;
+	font-size: 1.1rem;
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+
+.icon-button:hover {
+	background-color: #2e7d32;
+	color: white;
+	transform: scale(1.05);
+}
+
+.icon-button.plain {
+	background: none;
+	border: none;
+	color: inherit;
+	font-size: 1.5rem;
+	padding: 0;
+	width: auto;
+	height: auto;
+	cursor: pointer;
+}
+
+.burger {
+	color: white;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+  margin-right: 1rem;
+}
+
+
+@media (min-width: 768px) {
+	.navbar.transparent, .navbar.colored {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.logo-img {
+		height: 80px;
+		object-fit: contain;
+	}
+	
+	.logo {
+		margin-bottom: 0;
+		}
+
+	.nav-links {
+		flex-direction: row;
+		display: flex !important;
+		width: auto;
+		gap: 2rem;
+		padding: 0;
+	}
+
+	.nav-links li a {
+		font-size: 1.3rem;
+	}
+
+	.nav-icons {
+		margin-top: 0;
+		margin-left: 2rem;
+	}
+
+	.burger {
+		display: none;
+	}
+}

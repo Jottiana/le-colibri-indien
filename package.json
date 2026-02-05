@@ -1,10 +1,8 @@
 {
-	"name": "veux-tu-etre-mon-valentin-une-fois",
+	"name": "le-colibri-indien",
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
-	"homepage": "https://jottiana.github.io/veux-tu-etre-mon-valentin-une-fois/",
-
 	"scripts": {
 		"predeploy": "npm run build && cp dist/index.html dist/404.html",
 		"deploy": "gh-pages -d dist",
@@ -15,11 +13,9 @@
 		"preview": "vite preview"
 	},
 	"dependencies": {
-		"@tailwindcss/vite": "^4.1.18",
 		"react": "^19.0.0",
 		"react-dom": "^19.0.0",
-		"react-router-dom": "^7.4.0",
-		"tailwindcss": "^4.1.18"
+		"react-router-dom": "^7.4.0"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",

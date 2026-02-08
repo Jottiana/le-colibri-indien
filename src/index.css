@@ -11,6 +11,10 @@
 	margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body.light {
 	background-color: #fffef7;
 	color: #18421a;

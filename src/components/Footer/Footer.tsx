@@ -35,9 +35,9 @@ function Footer() {
 						<li>
 							<a href="/contact">{t.aboutLinks.contact}</a>
 						</li>
-						<li>
+						{/* <li>
 							<a href="/event">{t.aboutLinks.news}</a>
-						</li>
+						</li> */}
 						<li>
 							<a href="/legalnotice">{t.aboutLinks.legal}</a>
 						</li>
@@ -65,7 +65,7 @@ function Footer() {
 								{t.actLinks.member}
 							</a>
 						</li>
-						<li>
+						{/* <li>
 							<a
 								href="https://www.helloasso.com/associations/association-le-colibri-indien/evenements/billetterie-gala-de-charite"
 								target="_blank"
@@ -73,7 +73,7 @@ function Footer() {
 							>
 								{t.actLinks.gala}
 							</a>
-						</li>
+						</li> */}
 					</ul>
 				</nav>
 

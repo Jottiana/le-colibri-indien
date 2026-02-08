@@ -2,7 +2,7 @@ import "./NotFoundPage.css";
 import { useGlobalContext } from "../../context/GlobalContext";
 import { translations } from "../../data/translations";
 import { Link } from "react-router-dom";
-import backgroundPageNotFound from "/assets/404-page-not-found.png";
+import backgroundPageNotFound from "/assets/404-page-not-found.jpg";
 
 function NotFoundPage() {
   const { language } = useGlobalContext();

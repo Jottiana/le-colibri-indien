@@ -17,7 +17,7 @@ export const en = {
 		card1Text: "Contribute to our work on HelloAsso",
 		card2: "Join our charity gala",
 		card2Alt: "Charity icon",
-		card2Text: "Register for our event on May 31, 2025",
+		card2Text: "Our charity gala took place on May 31, 2025.",
 		card3: "Become a member",
 		card3Alt: "Membership card icon",
 		card3Text: "1 membership = 1 child at school",
@@ -138,7 +138,7 @@ export const en = {
 	notFoundPage: {
 		pageNotFound:
 			"404 - Page not found\nOops, the page you're looking for doesn't exist.",
-		alt404: "Child writing “404” on the blackboard at school",
+		alt404: "Child showing “404”",
 		backToHome: "Back to home",
 	},
 

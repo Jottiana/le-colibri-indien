@@ -15,7 +15,7 @@ export default function Actions() {
 				))}
 			</div>
 
-			<div className="action-event">
+			{/* <div className="action-event">
 				<h2 className="action-event-title">{t.upcomingEventTitle}</h2>
 				<h3 className="action-event-name">{t.galaTitle}</h3>
 				<p className="action-event-description">{t.galaDescription}</p>
@@ -35,7 +35,7 @@ export default function Actions() {
 				</p>
 
 				<p className="action-invitation-note">{t.invitationNote}</p>
-			</div>
+			</div> */}
 		</section>
 	);
 }

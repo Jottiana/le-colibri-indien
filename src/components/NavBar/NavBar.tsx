@@ -13,7 +13,7 @@ function NavBar() {
 
 	const links = [
 		{ path: "/", label: t.home },
-		{ path: "/event", label: t.event },
+		// { path: "/event", label: t.event },
 		{ path: "/aboutus", label: t.story },
 		{ path: "/actions", label: t.actions },
 		{ path: "/contact", label: t.contact },
